@@ -1,0 +1,105 @@
+.avviso{
+	font-size: 8pt;
+	color: #B75B00;
+}
+
+#tabella_codiciSMS_percorsi {
+    border-spacing: 1px;
+    color: #174071;
+    font-family: verdana;
+    font-size: 8pt;
+    height: 192px; /*305px;*/
+    width: 100%;
+}
+#captionRowSMS {
+    border-bottom: 3px solid #E49241;
+    float: left; 
+    margin: 0px;
+    width: 100%;
+    color: #174071;
+}
+#loading_codiciSMS_percorsi {
+   	float: left;
+   	height: 185px; /*297px;*/
+    overflow: auto;
+    width: 100%;
+}
+.listapercorsi {
+    border-bottom: 1px solid #D2D2D2;
+    min-height: 20px;
+    overflow: auto;
+    width: 100%;
+}
+
+.captionSMS {
+    float: left;
+    margin: 0;
+    padding: 0 1px;
+}
+
+.percorso {
+    min-height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 66%;
+    border-right: 1px dotted #D2D2D2;
+}
+#percorso {
+    width: 65%;
+}
+.codice_percorso {
+	min-height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 30%;
+}
+#codice_percorso {
+    width: 30%;
+}
+
+.divrecordSMS {
+	float: left;
+    margin: 0;
+    padding-top: 4px;
+}
+#tabella_codiciSMS_parcheggi {
+    border-spacing: 1px;
+    color: #174071;
+    font-family: verdana;
+    font-size: 8pt;
+    height: 192px; /*318px;*/
+    width: 100%;
+}
+
+#loading_codiciSMS_parcheggi {
+   	float: left;
+   	height: 185px; /*297px;*/
+    overflow: auto;
+}
+.listaparcheggi {
+    border-bottom: 1px solid #D2D2D2;
+    float: left;
+    width: 100%;
+}
+
+.parcheggio {
+    min-height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 66%;
+    border-right: 1px dotted #D2D2D2;
+}
+#parcheggio {
+    width: 65%;
+}
+.codice_parcheggio {
+    min-height: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 30%;
+}
+#codice_parcheggio {
+    width: 30%;
+}
+
+

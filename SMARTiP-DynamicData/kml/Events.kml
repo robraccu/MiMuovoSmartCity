@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>Events.kml</name>
+        <Style id="Limitazioni di traffico">
+            <IconStyle>
+                <scale>0.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://divino.eng.it/SMARTiP-DynamicData/images/abnormaltraffic.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="Lavori in corso">
+            <IconStyle>
+                <scale>0.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://divino.eng.it/SMARTiP-DynamicData/images/lavori.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark>
+            <name>s.stefano 136</name>
+            <description>Limitazioni di traffico--s.stefano 136-138 restringimento carreggiata per lavori su ponteggio e sospensione fermata bus--13/12/2011 09:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.356425,44.484554</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>via valverde  civ 30 senso unico alternato a vista per cantiere edile</name>
+            <description>Lavori in corso--via valverde  civ 30 senso unico alternato a vista per cantiere edile--12/12/2011 08:00:00</description>
+            <styleUrl>#Lavori in corso</styleUrl>
+            <Point>
+                <coordinates>11.337465,44.48211</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>viale panzacchi civ 5 restringimento corsia corsia carreggiata interna per cantiere edile</name>
+            <description>Limitazioni di traffico--viale panzacchi civ 5 restringimento corsia corsia carreggiata interna per cantiere edile--02/12/2011 12:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.348201,44.485096</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>saragozza 66 restringimento su corsia bus per lavori edili</name>
+            <description>Limitazioni di traffico--saragozza 66 restringimento su corsia bus per lavori edili--19/12/2011 08:00:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.333312,44.48894</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>piazza medaglie d'roro modifiche alla sosta</name>
+            <description>Limitazioni di traffico--piazza medaglie d'roro modifiche alla sosta--14/01/2012 08:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.345604,44.504787</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>villari tra pacinotti ed amari senso unico e tra pacinotti e novaro strada chiusa in varie fasi</name>
+            <description>Limitazioni di traffico--villari tra pacinotti ed amari senso unico e tra pacinotti e novaro strada chiusa in varie fasi--29/12/2011 11:00:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.371168,44.469772</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>s.donato ponte tangenziale e tra Karkov e Campagna restringimenti in pi￹ fasi</name>
+            <description>Limitazioni di traffico--s.donato ponte tangenziale e tra Karkov e Campagna restringimenti in pi￹ fasi--09/01/2012 08:00:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.380081,44.509743</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>via massarenti da rotonda paradisi a via cellini restringimento carreggiata</name>
+            <description>Limitazioni di traffico--via massarenti da rotonda paradisi a via cellini restringimento carreggiata--29/11/2011 17:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.390812,44.4929</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>via Massarenti civ 160 occupazione corsia bus per cantiere edile</name>
+            <description>Limitazioni di traffico--via Massarenti civ 160 occupazione corsia bus per cantiere edile--24/10/2011 08:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.365202,44.492092</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Pratello intersezione pietralata strada chiusa per lavori edili entrata da Paradiso</name>
+            <description>Limitazioni di traffico--Pratello intersezione pietralata strada chiusa per lavori edili entrata da Paradiso--09/01/2012 08:30:00</description>
+            <styleUrl>#Limitazioni di traffico</styleUrl>
+            <Point>
+                <coordinates>11.328473,44.49554</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
