@@ -1,0 +1,12 @@
+#set ($portlet_display = $portletDisplay)
+
+#set ($portlet_id = $htmlUtil.escapeAttribute($portlet_display.getId()))
+#set ($portlet_title = $portlet_display.getTitle())
+#set ($portlet_back_url = $htmlUtil.escapeAttribute($portlet_display.getURLBack()))
+
+<section class="portlet" id="portlet_$portlet_id">
+	
+	<div class="portlet-content">
+		$portlet_display.writeContent($writer)
+	</div>
+</section>
