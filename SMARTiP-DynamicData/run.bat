@@ -1,3 +1,0 @@
-
-java -jar TrafficKMLGenerator.jar
-
