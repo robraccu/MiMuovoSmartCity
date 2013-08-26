@@ -1,0 +1,177 @@
+.avviso {
+  color: #B75B00;
+  font-size: 7pt;
+  font-weight: normal; }
+
+.inlineDiv {
+  display: inline-block;
+  height: 25px;
+  margin-right: 20px; }
+
+#mapcanvas {
+  width: auto;
+  min-height: 555px;
+  position: relative;
+  background-color: #E5E3DF;
+  border: 3px solid #E49241;
+  margin: 5px auto;
+  overflow: hidden; }
+
+#dialog {
+  background-color: #ffffff!important;
+  border: 1px solid #cccccc; }
+
+#dialog dl {
+  margin-left: .5em; }
+
+#dialog dt {
+  font-weight: bold;
+  color: #174071;
+  padding: 4px 0px 4px 0px; }
+
+#routeDetails {
+  background-color: #ffffff!important;
+  border: 1px solid #CCCCCC;
+  color: #174071;
+  display: block;
+  max-height: 250px;
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+#route_mask {
+  border: 0px solid #E49241; }
+
+#route_mask label {
+  font-weight: bold; }
+
+#travelModeDiv {
+  border-top: 1px dotted #E49241;
+  font-size: 8pt;
+  margin: 20px 0 0;
+  padding: 5px 4px; }
+
+#travelModeDiv div {
+  font-size: 7pt;
+  margin: 9px auto 0;
+  width: 50%; }
+
+label#travelModeDivBtn {
+  /*display:inline!important;*/ }
+
+#toggleText {
+  color: #174071;
+  display: none;
+  font-size: 7pt;
+  margin: 4px auto;
+  padding: 10px; }
+
+#percorsoDiv {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: right;
+  height: auto; }
+
+#displayDiv {
+  float: right;
+  padding-top: 4px; }
+
+#radiobtndiv {
+  padding: 0 0 0 6px; }
+
+#radiobtndiv input {
+  margin: 5px 0; }
+
+#routeDetailsBtn {
+  margin-top: 10px; }
+
+#tablePercorso {
+  margin: 8px 0 0 0; }
+
+.divStartStop {
+  background-color: #DCE9F8;
+  border-color: #174071;
+  border-style: solid;
+  border-width: 2px 0;
+  margin: 5px 0;
+  padding: 2px 0;
+  text-align: center; }
+
+.rowPercorso {
+  border-bottom: 12px solid #FFFFFF; }
+
+#rowOdd .tdDistance, #rowOdd .tdInstructions {
+  background-color: #EEEEEE; }
+
+.tdInstructions {
+  padding-left: 2px; }
+
+.tdDistance {
+  width: 50px;
+  padding-left: 2px; }
+
+.tdIndent {
+  border-right: 1px solid orange;
+  font-weight: bold;
+  padding-right: 2px;
+  text-align: right;
+  vertical-align: top; }
+
+.inputPerWidth {
+  width: 98%;
+  display: inline-block; }
+
+.spacer {
+  margin: 0 auto 10px;
+  width: 280px; }
+
+#popContent {
+  height: auto; }
+
+#close {
+  display: none;
+  border: 1px solid #CCCCCC;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 0 5px;
+  text-align: center;
+  text-decoration: none; }
+
+/***** modifiche al jquery-ui-1.8.18.css *****/
+.ui-multiselect-checkboxes {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC !important;
+  height: 175px !important;
+  overflow-y: hidden;
+  left: 0;
+  position: relative;
+  top: -3px;
+  width: 220px; }
+
+.ui-multiselect-checkboxes label {
+  margin-left: 10px; }
+
+.ui-multiselect-checkboxes label span {
+  margin-left: 5px; }
+
+.ui-dialog {
+  width: auto !important; }
+
+#cercavia {
+  vertical-align: middle; }
+
+#cercavia_btn {
+  height: 25px;
+  margin: 0 0 0 -6px;
+  padding: 3px;
+  vertical-align: middle; }
+
+#opener {
+  height: 25px;
+  padding: 3px 5px 8px;
+  vertical-align: middle; }
+
+input[type="submit"], input[type="button"], input[type="reset"], button {
+  color: #174071 !important; }
+

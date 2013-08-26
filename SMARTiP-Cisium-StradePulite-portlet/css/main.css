@@ -1,0 +1,25 @@
+#content_strade{
+	height:218px;
+	width:100%;
+}
+#iframe_strade{
+	height:215px;
+	width:100%;
+	border:none;
+	/*border-left-color:#ff9900;
+	border-right-color:#ff9900;
+	border-top-color:#ff9900;
+	border-bottom-color:#ff9900;*/
+}
+
+#iframe_strade .db_pulizia {
+    color: #B75B00 !important;
+    font: 8pt verdana,sans-serif !important;
+}
+
+#offerto {
+    /*background-color: #EEEEEE;*/
+    font: 8pt Verdana,Arial,Helvetica,sans-serif;
+    height: 16px;
+    padding: 4px 3px 3px;
+}
