@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <name>Network Links</name>
+    <visibility>0</visibility>
+    <open>0</open>
+    <description>Fermate bus</description>
+<NetworkLink>
+      <name>Gruppo1</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>https://servizi.comune.bologna.it/SMARTiP-DynamicData/kml/fermatebus_1.kml</href>
+      </Link>
+    </NetworkLink>
+	<NetworkLink>
+      <name>Gruppo2</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>https://servizi.comune.bologna.it/SMARTiP-DynamicData/kml/fermatebus_2.kml</href>
+      </Link>
+    </NetworkLink>   
+   <NetworkLink>
+      <name>Gruppo3</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>https://servizi.comune.bologna.it/SMARTiP-DynamicData/kml/fermatebus_3.kml</href>
+      </Link>
+    </NetworkLink>
+
+    <NetworkLink>
+      <name>Gruppo4</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>https://servizi.comune.bologna.it/SMARTiP-DynamicData/kml/fermatebus_4.kml</href>
+      </Link>
+    </NetworkLink>
+  </Folder>
+</kml>

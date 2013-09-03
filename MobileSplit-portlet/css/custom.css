@@ -72,14 +72,14 @@
 */
 #page_icon_group{
 	text-align:center;
-	margin-top:14%;
+	margin-top:4%;
 }
 div.iconHome {
     margin-bottom: -6px;
 }
 .ui-link > img {
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
 }
 
 .home_icon_label{
@@ -502,27 +502,3 @@ input.focus, textarea.focus {
 	margin-top:20px;
 	text-align:center;
 }
-/**********************stili per la pagina autoArea**********************/
-.area_page.ui-body-a{
-	
-	background:-moz-linear-gradient(center top , #FFFFFF, #FFFFFF) repeat scroll 0 0 #716F74 !important ;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFFF /*{a-bup-background-start}*/), to( #FFFFFF /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #FFFFFF /*{a-bup-background-start}*/, #FFFFFF /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	color:#716F74;
-	font-size:15px;
-	
-}
-.area_page  ul li.ui-btn-up-a {
-	border: 1px solid #FF9900 !important;
-	border-top-width: 0px!important;
-	background:-moz-linear-gradient(center top , #FFFFFF, #FFFFFF) repeat scroll 0 0 #716F74 !important ;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #FFFFFF /*{a-bup-background-start}*/), to( #FFFFFF /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #FFFFFF /*{a-bup-background-start}*/, #FFFFFF /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	
-}
-.area_page  h1.ui-li-heading {
-	font-size:18px;
-
-	
-
-	}

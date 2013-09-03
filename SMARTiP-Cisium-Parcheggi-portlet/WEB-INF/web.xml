@@ -65,7 +65,7 @@
 		<servlet-class>com.jsos.httpproxy.HttpProxyServlet</servlet-class>
 		<init-param>
 			<param-name>host</param-name>
-			<param-value>http://dl.dropbox.com/u/50430823/Parking.kml</param-value>
+			<param-value>http://localhost/SMARTiP-DynamicData/kml/Parking.kml</param-value>
 		</init-param>
 	</servlet>
 	<servlet>

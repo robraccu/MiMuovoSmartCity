@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name><![CDATA[VarchiRITA]]></name>
+  <open>1</open>
+  <Snippet maxLines="0"><![CDATA[]]></Snippet>
+  <description><![CDATA[Exported from VarchiRITA on 19/04/2013]]></description>
+  <Style id="FEATURES1">
+    <IconStyle>
+      <scale>1</scale>
+	  <heading>0.0</heading>
+      <Icon>
+        <href>http://www.comune.bologna.it/media/source/rita.png</href>
+		<refreshInterval>0.0</refreshInterval>
+        <viewRefreshTime>0.0</viewRefreshTime>
+        <viewBoundScale>0.0</viewBoundScale>
+       </Icon>
+    </IconStyle>
+ </Style>
+	<Style id="FEATURES2">
+    <IconStyle>
+      <scale>1</scale>
+	  <heading>0.0</heading>
+      <Icon>
+        <href>http://www.comune.bologna.it/media/source/sirio.png</href>
+		<refreshInterval>0.0</refreshInterval>
+        <viewRefreshTime>0.0</viewRefreshTime>
+        <viewBoundScale>0.0</viewBoundScale>
+       </Icon>
+    </IconStyle>
+  </Style>
+  <Folder>
+    <name>Features</name>
+    <open>0</open>
+       <Placemark>
+         <name>RITA-VIA D'AZEGLIO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3402405557474,44.4888733122468,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA DELL'ARCHIGINNASIO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione S]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione S]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.343344462904,44.4921009435584,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA DELL'ARCHIGINNASIO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione N]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione N]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.343409469565,44.4924019966348,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA SARAGOZZA</name>
+         <Snippet maxLines="2"><![CDATA[Direzione NE]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione NE]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3190304771337,44.489103874446,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA GIOVANNI AMENDOLA</name>
+         <Snippet maxLines="2"><![CDATA[Direzione NE]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione NE]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3413277536215,44.5048509404898,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA AUGUSTO MURRI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione NO]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione NO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3607515101513,44.481741086584,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA UGO BASSI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione E]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione E]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.34025065204,44.4952530522453,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA RIZZOLI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione O]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione O]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3452529886446,44.4944280416223,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA GIACOMO MATTEOTTI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3465772258241,44.5088559081994,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA ANDREA COSTA</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3228241535355,44.4953415112687,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA DELL'INDIPENDENZA</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3435376057712,44.4983967879136,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA S.DONATO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3587598087753,44.4994400076372,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>RITA-VIA AURELIO SAFFI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES1</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3221614119623,44.5009243384011,0
+           </coordinates>
+         </Point>
+       </Placemark>
+	   <Placemark>
+         <name>SIRIO - VIA GUGLIELMO MARCONI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione SO]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione SO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3394736859782,44.5012443715664,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA GUGLIELMO MARCONI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione SO]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione SO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3395084036196,44.5012436600439,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA RIVA DI RENO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione E]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione E]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3381459930401,44.4988884454662,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA S.ISAIA</name>
+         <Snippet maxLines="2"><![CDATA[Direzione SE]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione SE]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3293890042612,44.4944947039995,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA S.VITALE</name>
+         <Snippet maxLines="2"><![CDATA[Direzione O]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione O]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3559104241432,44.4940736668374,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA TAGLIAPIETRE</name>
+         <Snippet maxLines="2"><![CDATA[Direzione N]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione N]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3397628552716,44.4890940437349,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA S.STEFANO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione NO]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione NO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3530863187093,44.487266560306,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIALE DODICI GIUGNO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione NO]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione NO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3443275164208,44.4877700031586,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA S.FELICE</name>
+         <Snippet maxLines="2"><![CDATA[Direzione SE]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione SE]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3321095516962,44.4974941707782,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA ALESSANDRINI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione S]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione S]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3466212671226,44.499085773421,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA ANTONIO BERTOLONI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3524070209507,44.4989999105108,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA BELMELORO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3530985525471,44.495750259098,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA FARINI</name>
+         <Snippet maxLines="2"><![CDATA[Direzione  ]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione  ]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3434373139429,44.4914278369871,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name>SIRIO - VIA S.DONATO</name>
+         <Snippet maxLines="2"><![CDATA[Direzione SO]]></Snippet>
+         <styleUrl>#FEATURES2</styleUrl>
+         <description><![CDATA[Direzione SO]]></description>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             11.3625959918956,44.5026120667332,0
+           </coordinates>
+         </Point>
+       </Placemark>
+  </Folder>
+</Document>
+</kml>

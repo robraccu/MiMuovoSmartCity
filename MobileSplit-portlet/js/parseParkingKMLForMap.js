@@ -10,20 +10,11 @@ function GetParcheggiForMap(){
 	        preserveViewport: true
 	    });
 		ParkingLayer.setMap(map);
-		ParkingmeterLayer= new google.maps.FusionTablesLayer({
-		      map: map,
-		      heatmap: { enabled: false },
-		      query: {
-		        select:colParkimeter,
-		        from: idParkimeter,
-		        where: ""
-		      },
-		      options: {
-		    	suppressInfoWindows: true,
-		        styleId: 2,
-		        templateId: 2
-		      }
-		    });
+		ParkingmeterLayer= new google.maps.KmlLayer(kmlPath+parkimeterKMLoc+'?ts='+timestampP,{suppressInfoWindows: true,
+	        map: map,
+	        preserveViewport: true
+	    });
+		
 		ParkingmeterLayer.setMap(map);
 		$("html" ).removeClass( "ui-loading" );
 		infoParking = new InfoBubble();
