@@ -1,4 +1,4 @@
-<div class="SMARTiP_Cicium_2_1" id="main-content" role="main">
+<div class="SMARTiP_Cisium_2_1" id="main-content" role="main">
 	<div class="portlet-layout">
 		<div class="aui-w70 portlet-column portlet-column-first" id="column-1">
 			$processor.processColumn("column-1", "portlet-column-content portlet-column-content-first")
