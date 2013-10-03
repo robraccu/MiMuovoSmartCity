@@ -5,17 +5,17 @@
 	<compatibility>
 		<version>6.1.0+</version>
 	</compatibility>
-	<theme id="SMARTiP-Cisium-Mobile" name="SMARTiP Cisium Mobile">
+	<theme id="SMARTiP-Cisium-Mobile" name="SMARTiP Cisium Mobile" >
 		<settings>
-			<setting key="portlet-setup-show-borders-default" value="true"></setting>
+			<setting key="portlet-setup-show-borders-default" value="true"/>
 		</settings>
 		<color-scheme id="01" name="default">
-			<css-class></css-class>
-			<color-scheme-images-path>${images-path}</color-scheme-images-path>
-		</color-scheme>
-		<color-scheme id="02" name="essential">
-			<css-class>essential</css-class>
-			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
-		</color-scheme>
+	        <css-class></css-class>
+	        <color-scheme-images-path>${images-path}</color-scheme-images-path>
+     	</color-scheme>
+     	<color-scheme id="02" name="essential">
+	        <css-class>essential</css-class>
+	        <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+	    </color-scheme>
 	</theme>
 </look-and-feel>

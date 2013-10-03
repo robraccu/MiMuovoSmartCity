@@ -24,6 +24,7 @@ $(document).bind("mobileinit", function () {
 			view_accessibility=true;
 			view_fermatebus=true;
 			view_linea=true;
+			view_taxi=true;
 			show_trafficIcon=true;//settata a true in modo tale che al caricamento della mappa venga già visualizzato il traffico
 			show_eventsIcon=false;//true=sono attualmente visualizzati gli eventi sulla mappa  
 			show_parkingIcon=false; 
@@ -36,6 +37,7 @@ $(document).bind("mobileinit", function () {
 			 show_accessibilityIcon=false;
 			 show_fermatebusIcon=false;
 			 show_lineaIcon=false;
+			 show_taxiIcon=false;
 			 $('#selectsort').selectmenu({ nativeMenu: "false" });//impedisco che il menu dei layer venga visualizzato nella forma nativa del dispositivo
 			 //definisco dei parametri di default per la mappa
 			 center_map=new google.maps.LatLng(44.49476,11.346595); 

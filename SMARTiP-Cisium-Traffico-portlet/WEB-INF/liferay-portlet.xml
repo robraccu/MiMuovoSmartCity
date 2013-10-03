@@ -2,6 +2,7 @@
 <!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.1.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_1_0.dtd">
 
 <liferay-portlet-app>
+	
 	<portlet>
 		<portlet-name>traffico</portlet-name>
 		<icon>/icon.png</icon>
@@ -14,7 +15,7 @@
 		<header-portlet-javascript>http://code.jquery.com/ui/1.8.18/jquery-ui.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.multiselect.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/infobubble.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/TrafficForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/TrafficForMap.js</header-portlet-javascript>	
 		<footer-portlet-javascript>/js/ParcheggiForMap.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/EventiForMap.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/CiclopedpubForMap.js</footer-portlet-javascript>
@@ -22,6 +23,7 @@
 		<footer-portlet-javascript>/js/AccessibilityForMap.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/FermateBusForMap.js</footer-portlet-javascript>
 		<footer-portlet-javascript>/js/LineeBusForMap.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/TaxiForMap.js</footer-portlet-javascript>
 		<css-class-wrapper>traffico-portlet</css-class-wrapper>
 	</portlet>
 	<role-mapper>

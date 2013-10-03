@@ -4,43 +4,70 @@ function GetCiclopedpubForMap(){
 		$("html").addClass( "ui-loading" );
 		
 		var timestampP=new Date().getTime();//timestamp da aggiungere all'url del kml per il refresh della cache del server di google
-		CiclopedpubLayer = new google.maps.KmlLayer(kmlPath+ciclopedpubKML+'?'+timestampP,
-				{suppressInfoWindows: true,
-	        map: map,
-	        preserveViewport: true
-	    });
+		CiclopedpubLayer=new google.maps.FusionTablesLayer({
+		      map: map,
+		      preserveViewport: true,
+		      heatmap: { enabled: false },
+		      query: {
+		          select:colCiclopedpub,
+		          from: idCiclopedpub,
+		          where: ""
+		        },
+		        options: {
+		        suppressInfoWindows: true,
+		          styleId: 2,
+		          templateId: 2
+		        }
+		 });
 		CiclopedpubLayer.setMap(map);
+		
 		//carico il layer con le info sui noleggi per le bici
-		CicloParkLayer = new google.maps.KmlLayer(kmlPath+cicloparkKML+'?'+timestampP,
-				{suppressInfoWindows: true,
-	        map: map,
-	        preserveViewport: true
-	    });
+		CicloParkLayer=new google.maps.FusionTablesLayer({
+		      map: map,
+		      preserveViewport: true,
+		      heatmap: { enabled: false },
+		      query: {
+		          select:colCicloPark,
+		          from:idCicloPark,
+		          where: ""
+		        },
+		        options: {
+		        suppressInfoWindows: true,
+		          styleId: 2,
+		          templateId: 2
+		        }
+		 });
 		CicloParkLayer.setMap(map);
 		
 		//carico il layer con le info sulle rastrelliere
-		CicloRacksLayer = new google.maps.KmlLayer(kmlPath+cicloracksKML+'?'+timestampP,
-				{suppressInfoWindows: true,
-	        map: map,
-	        preserveViewport: true
-	    });
+		CicloRacksLayer=new google.maps.FusionTablesLayer({
+		      map: map,
+		      preserveViewport: true,
+		      heatmap: { enabled: false },
+		      query: {
+		          select: colCicloRacks,
+		          from:idCicloRacks,
+		          where: ""
+		        },
+		        options: {
+		        suppressInfoWindows: true,
+		          styleId: 2,
+		          templateId: 2
+		        }
+		 });
 		CicloRacksLayer.setMap(map);
 		//creo il popup per le informazioni sui noleggi e le rastrelliere
 		infoCicloPedPub = new InfoBubble();
 		infoCicloPark = new InfoBubble();
 		infoCicloRacks = new InfoBubble();
 		
-		google.maps.event.addListener(CiclopedpubLayer, 'click', function(kmlEvent){
-
-			var nameVia = kmlEvent.featureData.description.split("--")[0];
-			var destUso=kmlEvent.featureData.description.split("--")[1];
-			var tipologia=kmlEvent.featureData.description.split("--")[2];
-			var posLinea = kmlEvent.latLng;
+		google.maps.event.addListener(CiclopedpubLayer, 'click', function(layerEvent){
+		
+			var infoWindow=layerEvent.infoWindowHtml;
+			var posLinea =layerEvent.latLng;
 			 if (!infoCicloPedPub.isOpen()) { 
 				 infoCicloPedPub.setOptions({	
-					 content:"<div  class='infoWindowText' >"+
-		    			"<b >"+nameVia+"</b></br><b style='float:left;' ></b>&nbsp;"+destUso+", "+tipologia+
-		    			"</div>",
+					 	content:infoWindow,
 		    			position: posLinea,
 		    			shadowStyle: 1,
 				        padding: 0,
@@ -62,16 +89,13 @@ function GetCiclopedpubForMap(){
 		
 		});
 		
-		google.maps.event.addListener(CicloParkLayer, 'click', function(kmlEvent){
+		google.maps.event.addListener(CicloParkLayer, 'click', function(layerEvent){
 		
-			var namePark = kmlEvent.featureData.name;
-			var descriptionPark=kmlEvent.featureData.description;
-			var posPark = kmlEvent.latLng;
+			var infoWindow=layerEvent.infoWindowHtml;
+			var posPark =layerEvent.latLng;
 			 if (!infoCicloPark.isOpen()) { 
 				 infoCicloPark.setOptions({	
-			        content:"<div  class='infoWindowText' >"+
-			    			"<b >"+namePark+"</b></br><b style='float:left;' ></b>&nbsp;"+descriptionPark+
-			    			"</div>",
+					 		content:infoWindow,
 			    			position: posPark,
 			    			shadowStyle: 1,
 					        padding: 0,
@@ -92,16 +116,14 @@ function GetCiclopedpubForMap(){
 			    }
 		
 		});
-		google.maps.event.addListener(CicloRacksLayer, 'click', function(kmlEvent){
+		google.maps.event.addListener(CicloRacksLayer, 'click', function(layerEvent){
 			
-			var nameRacks = kmlEvent.featureData.name;
-			
-			var posRacks = kmlEvent.latLng;
+			var infoWindow=layerEvent.infoWindowHtml;
+			var posRacks = layerEvent.latLng;
+						
 			 if (!infoCicloRacks.isOpen()) { 
 				 infoCicloRacks.setOptions({	
-			        content:"<div  class='infoWindowText'>"+
-			    			"<b>"+nameRacks+"</b>"+
-			    			"</div>",
+					 		content:infoWindow,
 			    			position: posRacks,
 			    			shadowStyle: 1,
 					        padding: 0,

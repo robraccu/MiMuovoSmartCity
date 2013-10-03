@@ -4,31 +4,41 @@ function GetFermateBusForMap(){
 	if(view_fermatebus==true){
 
 		var timestampF=new Date().getTime();//timestamp da aggiungere all'url del kml per il refresh della cache del server di google
-		FermateBusLayer = new google.maps.KmlLayer(kmlPath+fermatebusKML+'?ts='+timestampF,
-				{suppressInfoWindows: true,
-	        map: map,
-	        preserveViewport: true
-	    });
+
+		FermateBusLayer = new google.maps.FusionTablesLayer({
+		      map: map,
+		      preserveViewport: true,
+		      heatmap: { enabled: false },
+		      query: {
+		          select: colFermateBus,
+		          from: idFermateBus,
+		          where: ""
+		        },
+		        options: {
+		        suppressInfoWindows: true,
+		          styleId: 2,
+		          templateId: 2
+		        }
+		 });
 		FermateBusLayer.setMap(map);
 
 		infoFermateBus = new InfoBubble();
-		google.maps.event.addListener(FermateBusLayer, 'click', function(kmlEvent){
+		google.maps.event.addListener(FermateBusLayer, 'click', function(layerEvent){
 		 	
-		 	codfermata = kmlEvent.featureData.description.split("--")[0];
-		 	nome= kmlEvent.featureData.description.split("--")[1];
-		 	ubicazione= kmlEvent.featureData.description.split("--")[2];
-		 	respServizio="";
-		 	stringa_linee=kmlEvent.featureData.description.split("--")[3];
-		 	posF = kmlEvent.latLng;
+		 	codfermata = layerEvent.row.codice.value;
+		 	nome= layerEvent.row.denominazione.value;
+		 	ubicazione= layerEvent.row.ubicazione.value;
+		 	stringa_linee=layerEvent.row.linee.value;
+		 	posF = layerEvent.latLng;
 		 
 		 	if (!infoFermateBus.isOpen()) { 
 		 		
 		 		infoFermateBus.setOptions({	
 		 	        content:"<div  class='infoWindowText' id='infoString' onclick='ShowInfoFermata(stringa_linee)' >" +
-		 	        "<div><b >"+codFermata+codfermata+"</b>:&nbsp;"+nome+"</div>"+
+		 	        "<div><b >"+codfermata+"</b>:&nbsp;"+nome+"</div>"+
 		 	        "<p>"+ubicazione+"</p>"+
 		 	        "<b>"+clickbusTempoReale+"</b>"+
-		 	    	"</div>"		 	    			,
+		 	    	"</div>",	
 		 	    			position: posF,
 		 	    			maxWidth:'300',
 		 			        shadowStyle: 1,
@@ -186,17 +196,6 @@ function GetFermateBusForMap(){
 		      });
 	}
 		
-
-function OpenInfo(prox2bus){
-	
-		
-	infoFermateBus.setContent("<div  class='infoWindowText' id='infoString' onclick='ShowInfoFermata(stringa_linee)' >" +
-		 	        "<p><b >"+codFermata+codfermata+"</b></p>"+
-		 	        "<p>"+zona+" "+nome+"</p>"+
-		 	        "<p>"+ubicazione+"</p>"+
-		 	        "<p>"+prossimiBus+prox2bus+"</p>"+
-		 	    	"</div>");
-}
 
 /* La funzione restituisce la differenza fra due numeri: 
  * anche se gli elementi del nostro array sono stringhe numeriche 

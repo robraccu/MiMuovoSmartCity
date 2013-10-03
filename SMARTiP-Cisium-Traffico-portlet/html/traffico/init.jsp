@@ -60,9 +60,23 @@
 	var dettagliLbl='<fmt:message key="dettagliLbl"/>';
 	var chiudidettagliLbl='<fmt:message key="chiudidettagliLbl"/>';
 	
-	
-					
-	
+	/*fusion tables*/
+	 var idCiclopedpub='<fmt:message key="idCiclopedpub"/>';
+	 var colCiclopedpub='<fmt:message key="colCiclopedpub"/>';
+	 var idCicloPark='<fmt:message key="idCicloPark"/>';
+	 var colCicloPark='<fmt:message key="colCicloPark"/>';
+	 var idCicloRacks='<fmt:message key="idCicloRacks"/>';
+	 var colCicloRacks='<fmt:message key="colCicloRacks"/>';
+	 var idSirio='<fmt:message key="idSirio"/>';
+	 var colSirio='<fmt:message key="colSirio"/>';
+	 var idRita='<fmt:message key="idRita"/>';
+	 var colRita='<fmt:message key="colRita"/>';
+	 var idFermateBus='<fmt:message key="idFermateBus"/>';
+	 var colFermateBus='<fmt:message key="colFermateBus"/>';
+	 var idParkimeter='<fmt:message key="idParkimeter"/>';
+	 var colParkimeter='<fmt:message key="colParkimeter"/>';
+	 var idTaxi='<fmt:message key="idTaxi"/>';				
+	 var colTaxi='<fmt:message key="colTaxi"/>';
 	
 	
 //-->

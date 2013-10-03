@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
-
-
-<d2LogicalModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelBaseVersion="1.0" xmlns="http://datex2.eu/schema/1_0/1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0
-http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+<d2LogicalModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" modelBaseVersion="1.0" 
+				xmlns="http://datex2.eu/schema/1_0/1_0" 
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0,
+				http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+				
+				
 <exchange>
 <supplierIdentification>
 <country>it</country>
@@ -13,30 +14,32 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </supplierIdentification>
 </exchange>
 <payloadPublication xsi:type="SituationPublication" lang="it">
-<publicationTime>2013-04-11T17:30:34+01:00</publicationTime>
+<publicationTime>2012-03-09T10:02:57+01:00</publicationTime>
+
 <publicationCreator>
 <country>it</country>
 <nationalIdentifier>Comune di Bologna</nationalIdentifier>
 </publicationCreator>
 
-<situation xsi:type="Situation" id="ID_479121">
+<situation xsi:type="Situation" id="ID_225361">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_452081">
+<situationRecord xsi:type="AbnormalTraffic" id="ID_198321">
     
-<situationRecordCreationTime>2013-01-14T13:55:47+01:00</situationRecordCreationTime>
+<situationRecordCreationTime>2012-01-25T15:50:52+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-01-14T13:55:47+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-01-14T13:55:47+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-01-25T15:50:52+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-01-25T15:50:52+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
 <value lang="it">Comune di Bologna</value>
+
 <value lang="en">Bologna Road Administration</value>
 </sourceName>
 <sourceType>roadAuthorities</sourceType>
@@ -44,13 +47,14 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-01-18T09:00:00+01:00</overallStartTime>
-<overallEndTime>2013-12-31T17:00:00+01:00</overallEndTime>
+<overallStartTime>2012-01-25T16:00:00+01:00</overallStartTime>
+<overallEndTime>2012-05-31T16:00:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
+
 <comment>
-<value lang="it">panzacchi civ 8/2 - 2 restringimenti per lavori consolidamento caseggiato demaniale</value>
+<value lang="it">via san donato tratto dai ponti ferroviari a via Andreini corsia chiusa per lavori</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -62,460 +66,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20016</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48527</latitude>
-<longitude>11.347936</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
 
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20165</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.485096</latitude>
-<longitude>11.348201</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20017</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48562</latitude>
-<longitude>11.347737</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_509021">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_481981">
-    
-<situationRecordCreationTime>2013-03-01T09:48:33+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-01T09:48:33+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-01T09:48:33+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-04T08:30:00+01:00</overallStartTime>
-<overallEndTime>2015-07-31T17:00:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">via borelli restringimenti per cantiere edile,via beroaldo chiusura marciapiedi</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20156</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.50382</latitude>
-<longitude>11.368012</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_539122">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_512082">
-    
-<situationRecordCreationTime>2013-04-05T13:50:29+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-04-05T13:50:29+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-04-05T13:50:29+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-04-05T14:00:00+01:00</overallStartTime>
-<overallEndTime>2013-05-29T18:00:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">V. De' Carracci tra v.Dall'Arca e v.De Maria restringimento della carreggiata da 2 a 1 corsia</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20204</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.507725</latitude>
-<longitude>11.341096</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20185</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.507725</latitude>
-<longitude>11.341096</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_509041">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_482001">
-    
-<situationRecordCreationTime>2013-03-01T09:58:47+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-01T09:58:47+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-01T09:58:47+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-04T09:30:00+01:00</overallStartTime>
-<overallEndTime>2013-04-26T16:30:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">ferrarese 114,zaccherini a.2,mezzofanti 79,creti 24 restringimenti per posa telecamere</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20101</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48145</latitude>
-<longitude>11.371873</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20206</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.518585</latitude>
-<longitude>11.356504</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20148</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.49297</latitude>
-<longitude>11.36081</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20102</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48145</latitude>
-<longitude>11.371873</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_533083">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="NetworkManagement" id="ID_506043">
-
-<situationRecordCreationTime>2013-03-27T16:18:39+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-27T16:18:39+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-27T16:18:39+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-04-08T08:00:00+01:00</overallStartTime>
-<overallEndTime>2013-04-12T16:30:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">sante vincenzi civ 47 transito regolato da movieri per lavori enel</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20136</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.497444</latitude>
-<longitude>11.365529</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-<NetworkManagementType>singleAlternateLineTraffic</NetworkManagementType>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_538702">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_511662">
-    
-<situationRecordCreationTime>2013-04-05T09:00:32+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-04-05T09:00:32+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-04-05T09:00:32+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-04-06T09:00:00+01:00</overallStartTime>
-<overallEndTime>2013-06-13T18:00:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">v. S. Donato tra v. Ferri e ponte ferroviario senso unico alternato regolato da movieri</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
@@ -537,24 +88,25 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_482402">
+<situation xsi:type="Situation" id="ID_239961">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_455362">
+<situationRecord xsi:type="AbnormalTraffic" id="ID_212921">
     
-<situationRecordCreationTime>2013-01-21T09:13:42+01:00</situationRecordCreationTime>
+<situationRecordCreationTime>2012-02-17T14:46:08+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-01-21T09:13:42+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-01-21T09:13:42+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-02-17T14:46:08+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-02-17T14:46:08+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
 <value lang="it">Comune di Bologna</value>
+
 <value lang="en">Bologna Road Administration</value>
 </sourceName>
 <sourceType>roadAuthorities</sourceType>
@@ -562,13 +114,14 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-01-21T09:15:00+01:00</overallStartTime>
-<overallEndTime>2013-05-20T17:30:00+01:00</overallEndTime>
+<overallStartTime>2012-02-19T08:00:00+01:00</overallStartTime>
+<overallEndTime>2012-04-30T17:00:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
+
 <comment>
-<value lang="it">zanardi da pietramellara a bovi campeggi restringimenti per lavori</value>
+<value lang="it">massarenti civ 160 restringimento carreggiata per cantiere</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -580,17 +133,18 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
+
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20004</specificLocation>
+<specificLocation>20137</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.50258</latitude>
-<longitude>11.333672</longitude>
+<latitude>44.492092</latitude>
+<longitude>11.365202</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -605,14 +159,15 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20057</specificLocation>
+<specificLocation>20138</specificLocation>
+
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.503174</latitude>
-<longitude>11.333142</longitude>
+<latitude>44.492092</latitude>
+<longitude>11.365202</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -620,6 +175,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
@@ -627,14 +183,15 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20005</specificLocation>
+<specificLocation>20147</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.50203</latitude>
-<longitude>11.333767</longitude>
+
+<latitude>44.492092</latitude>
+<longitude>11.365202</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -645,20 +202,22 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_482582">
+<situation xsi:type="Situation" id="ID_225281">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
+
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_455542">
+<situationRecord xsi:type="AbnormalTraffic" id="ID_198241">
     
-<situationRecordCreationTime>2013-01-21T12:20:07+01:00</situationRecordCreationTime>
+<situationRecordCreationTime>2012-01-18T15:59:02+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-01-21T12:20:07+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-01-21T12:20:07+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-01-18T15:59:02+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-01-18T15:59:02+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
@@ -670,13 +229,14 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-01-28T09:00:00+01:00</overallStartTime>
-<overallEndTime>2013-08-01T16:30:00+01:00</overallEndTime>
+<overallStartTime>2012-01-23T08:00:00+01:00</overallStartTime>
+
+<overallEndTime>2012-03-10T16:00:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
 <comment>
-<value lang="it">della salute  civ 3-5-9-15 restringimenti per posa nuove condotte</value>
+<value lang="it">via valverde civ 20 restringimento per cantiere e senso unico alternato</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -685,20 +245,22 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
+
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20068</specificLocation>
+<specificLocation>20164</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.518772</latitude>
-<longitude>11.271108</longitude>
+<latitude>44.477577</latitude>
+
+<longitude>11.335594</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -709,21 +271,23 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_487882">
+<situation xsi:type="Situation" id="ID_250961">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
+
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_460842">
-    
-<situationRecordCreationTime>2013-01-28T13:37:23+01:00</situationRecordCreationTime>
+<situationRecord xsi:type="NetworkManagement" id="ID_223921">
+
+<situationRecordCreationTime>2012-03-05T08:36:07+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-01-28T13:37:23+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-01-28T13:37:23+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-03-05T08:36:07+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-05T08:36:07+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
+
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
 <value lang="it">Comune di Bologna</value>
@@ -734,13 +298,131 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-01-28T13:45:00+01:00</overallStartTime>
-<overallEndTime>2013-04-30T17:30:00+01:00</overallEndTime>
+<overallStartTime>2012-03-05T08:45:00+01:00</overallStartTime>
+
+<overallEndTime>2012-03-09T17:30:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
 <comment>
-<value lang="it">de coubertin tra XXI aprile e A.Costa senso unico direzione A.Costa per lavori</value>
+<value lang="it">castiglione civ 142 senso unico alternato regolato da semaforo per realizzazzione passo carraio</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20166</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.482166</latitude>
+
+<longitude>11.348993</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20168</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.480064</latitude>
+<longitude>11.349094</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20167</specificLocation>
+
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.480064</latitude>
+<longitude>11.349094</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+<NetworkManagementType>singleAlternateLineTraffic</NetworkManagementType>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_248082">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+<urgency>normalUrgency</urgency>
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_221042">
+    
+
+<situationRecordCreationTime>2012-03-01T13:43:21+01:00</situationRecordCreationTime>
+<situationRecordVersion>1</situationRecordVersion>
+<situationRecordVersionTime>2012-03-01T13:43:21+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-01T13:43:21+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+<value lang="en">Bologna Road Administration</value>
+
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2012-03-01T13:45:00+01:00</overallStartTime>
+<overallEndTime>2012-03-09T17:00:00+01:00</overallEndTime>
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+<comment>
+<value lang="it">san donato tra del lavoro e barontini restringimenti per messa in sicurezza del ponte</value>
+
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -754,15 +436,64 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
+
 <alertCLocation>
-<specificLocation>20096</specificLocation>
+<specificLocation>20158</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.49007</latitude>
-<longitude>11.311718</longitude>
+<latitude>44.502407</latitude>
+<longitude>11.362013</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20216</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.50346</latitude>
+<longitude>11.364053</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20215</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.50346</latitude>
+
+<longitude>11.364053</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -774,61 +505,18 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20095</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.4903</latitude>
-<longitude>11.311344</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
 
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20088</specificLocation>
+<specificLocation>20157</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.490646</latitude>
-<longitude>11.311293</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20084</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.49374</latitude>
-<longitude>11.310294</longitude>
+<latitude>44.50346</latitude>
+<longitude>11.364053</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -839,24 +527,25 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_487885">
+<situation xsi:type="Situation" id="ID_255281">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_460845">
-    
-<situationRecordCreationTime>2013-01-28T13:42:34+01:00</situationRecordCreationTime>
+<situationRecord xsi:type="AbnormalTraffic" id="ID_228241">
+
+<situationRecordCreationTime>2012-03-09T09:39:52+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-01-28T13:42:34+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-01-28T13:42:34+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-03-09T09:39:52+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-09T09:39:52+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
 <value lang="it">Comune di Bologna</value>
+
 <value lang="en">Bologna Road Administration</value>
 </sourceName>
 <sourceType>roadAuthorities</sourceType>
@@ -864,13 +553,14 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-01-28T13:45:00+01:00</overallStartTime>
-<overallEndTime>2013-04-30T17:30:00+01:00</overallEndTime>
+<overallStartTime>2012-03-09T09:39:52+01:00</overallStartTime>
+<overallEndTime>2012-03-09T10:09:52+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
+
 <comment>
-<value lang="it">tolmino da sacco vanzetti a montefiorino restringimenti per adeguamento canale stradale</value>
+<value lang="it">Matteotti : Traffico intenso</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -882,17 +572,18 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
+
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20179</specificLocation>
+<specificLocation>20188</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.49764</latitude>
-<longitude>11.316433</longitude>
+<latitude>44.505188</latitude>
+<longitude>11.3460245</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -907,14 +598,15 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20092</specificLocation>
+<specificLocation>20186</specificLocation>
+
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.497818</latitude>
-<longitude>11.316721</longitude>
+<latitude>44.506874</latitude>
+<longitude>11.3463335</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -922,6 +614,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
@@ -929,14 +622,15 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20091</specificLocation>
+<specificLocation>20190</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.497818</latitude>
-<longitude>11.316721</longitude>
+
+<latitude>44.541527</latitude>
+<longitude>11.35628</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -947,70 +641,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20180</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.497818</latitude>
-<longitude>11.316721</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
 
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_521924">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_494884">
-    
-<situationRecordCreationTime>2013-03-15T13:42:24+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-15T13:42:24+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-15T13:42:24+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-16T08:30:00+01:00</overallStartTime>
-<overallEndTime>2013-04-30T17:00:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">corticella da passarotti a p.unit? restringimenti per rifunzionalizzazione canale stradale</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
@@ -1024,198 +655,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <latitude>44.51666</latitude>
 <longitude>11.348082</longitude>
 </pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
 
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_439501">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_412461">
-    
-<situationRecordCreationTime>2012-11-23T13:23:57+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2012-11-23T13:23:57+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2012-11-23T13:23:57+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2012-11-23T13:30:00+01:00</overallStartTime>
-<overallEndTime>2013-04-24T13:30:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">della certosa da tofane a fondo strada chiusa per operazioni di manutenzione nei casi di necessit?</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20178</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.49885</latitude>
-<longitude>11.310357</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_521925">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_494885">
-    
-<situationRecordCreationTime>2013-03-15T13:44:14+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-15T13:44:14+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-15T13:44:14+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-18T08:30:00+01:00</overallStartTime>
-<overallEndTime>2013-06-30T17:00:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">lenin da viqa misa verso felsina restringimenti per realizzazione pista ciclabile</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20121</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48376</latitude>
-<longitude>11.383849</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-</groupOfLocations>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_507422">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="AbnormalTraffic" id="ID_480382">
-    
-<situationRecordCreationTime>2013-02-27T14:26:51+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-02-27T14:26:51+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-02-27T14:26:51+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-01T09:00:00+01:00</overallStartTime>
-<overallEndTime>2013-04-30T17:30:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">san mamolo 45 restringimenti per lavori edili</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20163</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.48211</latitude>
-<longitude>11.337465</longitude>
-</pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
 
@@ -1229,41 +669,45 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20162</specificLocation>
+
+<specificLocation>20187</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.484585</latitude>
-<longitude>11.33928</longitude>
+<latitude>44.506874</latitude>
+<longitude>11.3463335</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
 
 </groupOfLocations>
 
+<abnormalTrafficType>stationaryTraffic</abnormalTrafficType>
+
 </situationRecord>
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_544101">
+<situation xsi:type="Situation" id="ID_255282">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="AbnormalTraffic" id="ID_517061">
+<situationRecord xsi:type="AbnormalTraffic" id="ID_228242">
 
-<situationRecordCreationTime>2013-04-11T17:17:02+01:00</situationRecordCreationTime>
+<situationRecordCreationTime>2012-03-09T09:41:22+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-04-11T17:17:02+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-04-11T17:17:02+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-03-09T09:41:22+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-09T09:41:22+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
+
 <value lang="it">Comune di Bologna</value>
 <value lang="en">Bologna Road Administration</value>
 </sourceName>
@@ -1272,9 +716,10 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-04-11T17:17:02+01:00</overallStartTime>
-<overallEndTime>2013-04-11T17:47:02+01:00</overallEndTime>
+<overallStartTime>2012-03-09T09:41:22+01:00</overallStartTime>
+<overallEndTime>2012-03-09T10:11:22+01:00</overallEndTime>
 </validityTimeSpecification>
+
 </validity>
 <generalPublicComment>
 <comment>
@@ -1288,19 +733,21 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
+
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20183</specificLocation>
+<specificLocation>20012</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.497173</latitude>
-<longitude>11.327195</longitude>
+<latitude>44.491356</latitude>
+<longitude>11.329128</longitude>
+
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1314,50 +761,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20021</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.489986</latitude>
-<longitude>11.357664</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
 
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
-<alertCLocation>
-<specificLocation>20003</specificLocation>
-</alertCLocation>
-</alertCMethod2PrimaryPointLocation>
-</alertCPoint>
-<pointByCoordinates>
-<pointCoordinates>
-<latitude>44.504086</latitude>
-<longitude>11.336648</longitude>
-</pointCoordinates>
-</pointByCoordinates>
-</locationContainedInGroup>
-
-<locationContainedInGroup xsi:type="Point">
-<alertCPoint xsi:type="AlertCMethod2Point">
-<alertCLocationCountryCode>IT</alertCLocationCountryCode>
-<alertCLocationTableNumber>1</alertCLocationTableNumber>
-<alertCLocationTableVersion>2</alertCLocationTableVersion>
-<alertCDirection>
-<alertCDirectionCoded>unknown</alertCDirectionCoded>
-</alertCDirection>
-<alertCMethod2PrimaryPointLocation>
 <alertCLocation>
 <specificLocation>20005</specificLocation>
 </alertCLocation>
@@ -1367,6 +771,77 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <pointCoordinates>
 <latitude>44.50203</latitude>
 <longitude>11.333767</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20022</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.494118</latitude>
+<longitude>11.357154</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20134</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.489655</latitude>
+
+<longitude>11.358438</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20099</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.49038</latitude>
+<longitude>11.328989</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1382,6 +857,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
 <specificLocation>20057</specificLocation>
+
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
@@ -1396,6 +872,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
@@ -1403,15 +880,40 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20022</specificLocation>
+<specificLocation>20018</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.494118</latitude>
-<longitude>11.357154</longitude>
+
+<latitude>44.484554</latitude>
+<longitude>11.356425</longitude>
 </pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20019</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.484554</latitude>
+<longitude>11.356425</longitude>
+</pointCoordinates>
+
 </pointByCoordinates>
 </locationContainedInGroup>
 
@@ -1425,14 +927,157 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20004</specificLocation>
+
+<specificLocation>20087</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.50258</latitude>
-<longitude>11.333672</longitude>
+<latitude>44.49483</latitude>
+<longitude>11.327808</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20011</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.491116</latitude>
+<longitude>11.329297</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20016</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.48527</latitude>
+<longitude>11.347936</longitude>
+
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+
+<alertCLocation>
+<specificLocation>20027</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.502174</latitude>
+<longitude>11.352836</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20003</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.504086</latitude>
+<longitude>11.336648</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20026</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.502174</latitude>
+
+<longitude>11.352836</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20009</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.494587</latitude>
+<longitude>11.328104</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1448,6 +1093,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
 <specificLocation>20006</specificLocation>
+
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
@@ -1462,10 +1108,201 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20007</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+
+<latitude>44.499207</latitude>
+<longitude>11.327653</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20080</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.499172</latitude>
+<longitude>11.326946</longitude>
+</pointCoordinates>
+
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+
+<specificLocation>20149</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.493946</latitude>
+<longitude>11.35763</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20017</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.48562</latitude>
+<longitude>11.347737</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20021</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.489986</latitude>
+<longitude>11.357664</longitude>
+
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+
+<alertCLocation>
+<specificLocation>20029</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.50233</latitude>
+<longitude>11.353095</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20010</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.49554</latitude>
+<longitude>11.328473</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20183</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.497173</latitude>
+
+<longitude>11.327195</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
@@ -1491,6 +1328,147 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
+<specificLocation>20111</specificLocation>
+
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.4841</latitude>
+<longitude>11.356374</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20165</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+
+<latitude>44.485096</latitude>
+<longitude>11.348201</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20004</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.50258</latitude>
+<longitude>11.333672</longitude>
+</pointCoordinates>
+
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+
+<specificLocation>20023</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.494118</latitude>
+<longitude>11.357154</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+<abnormalTrafficType>stationaryTraffic</abnormalTrafficType>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_255283">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+<urgency>normalUrgency</urgency>
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_228243">
+
+<situationRecordCreationTime>2012-03-09T09:46:40+01:00</situationRecordCreationTime>
+<situationRecordVersion>1</situationRecordVersion>
+<situationRecordVersionTime>2012-03-09T09:46:40+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-09T09:46:40+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+
+<value lang="en">Bologna Road Administration</value>
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2012-03-09T09:46:40+01:00</overallStartTime>
+<overallEndTime>2012-03-09T10:16:40+01:00</overallEndTime>
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+
+<comment>
+<value lang="it">Emilia Ponente  : Traffico intenso</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
 <specificLocation>20007</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
@@ -1513,12 +1491,273 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
+<specificLocation>20051</specificLocation>
+
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.518944</latitude>
+<longitude>11.322512</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20303</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+
+<latitude>44.50419</latitude>
+<longitude>11.308372</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20046</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.505726</latitude>
+<longitude>11.309546</longitude>
+</pointCoordinates>
+
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+
+<specificLocation>20072</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.511017</latitude>
+<longitude>11.291078</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20073</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.508728</latitude>
+<longitude>11.29772</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20063</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.517616</latitude>
+<longitude>11.329208</longitude>
+
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+
+<alertCLocation>
+<specificLocation>20006</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.499126</latitude>
+<longitude>11.327165</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20052</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.518944</latitude>
+<longitude>11.322512</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20047</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.50723</latitude>
+
+<longitude>11.309844</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20075</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.505726</latitude>
+<longitude>11.309546</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20053</specificLocation>
+
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.518036</latitude>
+<longitude>11.324122</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
 <specificLocation>20080</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
+
 <latitude>44.499172</latitude>
 <longitude>11.326946</longitude>
 </pointCoordinates>
@@ -1531,18 +1770,114 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
+
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20023</specificLocation>
+<specificLocation>20302</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.494118</latitude>
-<longitude>11.357154</longitude>
+<latitude>44.504486</latitude>
+<longitude>11.309049</longitude>
+</pointCoordinates>
+
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+<abnormalTrafficType>stationaryTraffic</abnormalTrafficType>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_255301">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+
+<urgency>normalUrgency</urgency>
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_228261">
+
+<situationRecordCreationTime>2012-03-09T09:56:43+01:00</situationRecordCreationTime>
+<situationRecordVersion>1</situationRecordVersion>
+<situationRecordVersionTime>2012-03-09T09:56:43+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-09T09:56:43+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+<value lang="en">Bologna Road Administration</value>
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2012-03-09T09:56:43+01:00</overallStartTime>
+
+<overallEndTime>2012-03-09T10:26:43+01:00</overallEndTime>
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+<comment>
+<value lang="it">Stalingrado : Traffico intenso</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20027</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.502174</latitude>
+
+<longitude>11.352836</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20032</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.51008</latitude>
+<longitude>11.356663</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1557,15 +1892,64 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20010</specificLocation>
+<specificLocation>20030</specificLocation>
+
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.49554</latitude>
-<longitude>11.328473</longitude>
+<latitude>44.50835</latitude>
+<longitude>11.356568</longitude>
 </pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20029</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+
+<latitude>44.50233</latitude>
+<longitude>11.353095</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20026</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.502174</latitude>
+<longitude>11.352836</longitude>
+</pointCoordinates>
+
 </pointByCoordinates>
 </locationContainedInGroup>
 
@@ -1579,14 +1963,63 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20134</specificLocation>
+
+<specificLocation>20205</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.489655</latitude>
-<longitude>11.358438</longitude>
+<latitude>44.526474</latitude>
+<longitude>11.363235</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20224</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.510654</latitude>
+<longitude>11.3571415</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20212</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.509785</latitude>
+<longitude>11.358257</longitude>
+
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1600,15 +2033,64 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
+
 <alertCLocation>
-<specificLocation>20149</specificLocation>
+<specificLocation>20031</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.493946</latitude>
-<longitude>11.35763</longitude>
+<latitude>44.510155</latitude>
+<longitude>11.357101</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20209</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.510155</latitude>
+<longitude>11.357101</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20210</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.510155</latitude>
+
+<longitude>11.357101</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1621,19 +2103,21 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_525223">
+<situation xsi:type="Situation" id="ID_239963">
 <headerInformation>
+
 <confidentiality>noRestriction</confidentiality>
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="NetworkManagement" id="ID_498183">
+<situationRecord xsi:type="NetworkManagement" id="ID_212923">
 
-<situationRecordCreationTime>2013-03-19T15:56:49+01:00</situationRecordCreationTime>
+<situationRecordCreationTime>2012-02-17T14:49:24+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-19T15:56:49+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-19T15:56:49+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-02-17T14:49:24+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-02-17T14:49:24+01:00</situationRecordFirstSupplierVersionTime>
+
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
@@ -1645,23 +2129,49 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </sourceInformation>
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
+
 <validityTimeSpecification>
-<overallStartTime>2013-03-25T09:00:00+01:00</overallStartTime>
-<overallEndTime>2013-05-24T17:00:00+01:00</overallEndTime>
+<overallStartTime>2012-02-17T15:00:00+01:00</overallStartTime>
+<overallEndTime>2012-04-16T17:15:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
 <comment>
-<value lang="it">zucchi civ 5 transito regolato a vista per cantiere edile</value>
+<value lang="it">bianchini civ 5 senso unico alternato a vista per lavori edili</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
 
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
+
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20085</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.494728</latitude>
+<longitude>11.314714</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
@@ -1675,6 +2185,7 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <pointCoordinates>
 <latitude>44.495193</latitude>
 <longitude>11.3182</longitude>
+
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1687,20 +2198,22 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </situation>
 
-<situation xsi:type="Situation" id="ID_528342">
+<situation xsi:type="Situation" id="ID_249182">
 <headerInformation>
 <confidentiality>noRestriction</confidentiality>
+
 <informationStatus>real</informationStatus>
 <urgency>normalUrgency</urgency>
 </headerInformation>
 
-<situationRecord xsi:type="NetworkManagement" id="ID_501302">
-
-<situationRecordCreationTime>2013-03-22T15:33:53+01:00</situationRecordCreationTime>
+<situationRecord xsi:type="AbnormalTraffic" id="ID_222142">
+    
+<situationRecordCreationTime>2012-03-02T14:45:49+01:00</situationRecordCreationTime>
 <situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-22T15:33:53+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-22T15:33:53+01:00</situationRecordFirstSupplierVersionTime>
+<situationRecordVersionTime>2012-03-02T14:45:49+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-03-02T14:45:49+01:00</situationRecordFirstSupplierVersionTime>
 <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+
 <sourceInformation>
 <sourceIdentification>Comune di Bologna</sourceIdentification>
 <sourceName>
@@ -1712,13 +2225,359 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <validity>
 <validityStatus>definedByValidityTimeSpec</validityStatus>
 <validityTimeSpecification>
-<overallStartTime>2013-04-08T08:30:00+01:00</overallStartTime>
-<overallEndTime>2013-05-31T17:30:00+01:00</overallEndTime>
+<overallStartTime>2012-03-02T14:45:00+01:00</overallStartTime>
+
+<overallEndTime>2012-04-07T14:45:00+01:00</overallEndTime>
 </validityTimeSpecification>
 </validity>
 <generalPublicComment>
 <comment>
-<value lang="it">valverde civ 32 restringimenti per cantiere transito regolato a vista</value>
+<value lang="it">via s donato altezza uscita tangenziale restringimenti per cantiere pista ciclabile</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20153</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.509743</latitude>
+
+<longitude>11.380081</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20152</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.51031</latitude>
+<longitude>11.381941</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_224441">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+<urgency>normalUrgency</urgency>
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_197401">
+    
+<situationRecordCreationTime>2011-11-29T17:27:52+01:00</situationRecordCreationTime>
+<situationRecordVersion>1</situationRecordVersion>
+<situationRecordVersionTime>2011-11-29T17:27:52+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2011-11-29T17:27:52+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+
+<value lang="en">Bologna Road Administration</value>
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2011-11-29T17:30:00+01:00</overallStartTime>
+<overallEndTime>2012-03-31T17:30:00+01:00</overallEndTime>
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+
+<comment>
+<value lang="it">via massarenti da rotonda paradisi a via cellini restringimento carreggiata</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20119</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.4929</latitude>
+<longitude>11.390812</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20143</specificLocation>
+
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.493416</latitude>
+<longitude>11.39053</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20144</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+
+<latitude>44.493416</latitude>
+<longitude>11.39053</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20142</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.4939</latitude>
+<longitude>11.393102</longitude>
+</pointCoordinates>
+
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_239983">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+<urgency>normalUrgency</urgency>
+
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_212943">
+    
+<situationRecordCreationTime>2012-02-17T14:56:58+01:00</situationRecordCreationTime>
+<situationRecordVersion>1</situationRecordVersion>
+<situationRecordVersionTime>2012-02-17T14:56:58+01:00</situationRecordVersionTime>
+<situationRecordFirstSupplierVersionTime>2012-02-17T14:56:58+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+<value lang="en">Bologna Road Administration</value>
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2012-02-20T08:00:00+01:00</overallStartTime>
+<overallEndTime>2012-04-20T17:00:00+01:00</overallEndTime>
+
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+<comment>
+<value lang="it">piazza di porta maggiore e via mazzini restringimenti per installazione ponteggio</value>
+</comment>
+</generalPublicComment>
+<groupOfLocations>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20134</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.489655</latitude>
+<longitude>11.358438</longitude>
+
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+
+<alertCLocation>
+<specificLocation>20021</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.489986</latitude>
+<longitude>11.357664</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+<locationContainedInGroup xsi:type="Point">
+
+<alertCPoint xsi:type="AlertCMethod2Point">
+<alertCLocationCountryCode>IT</alertCLocationCountryCode>
+<alertCLocationTableNumber>1</alertCLocationTableNumber>
+<alertCLocationTableVersion>2</alertCLocationTableVersion>
+<alertCDirection>
+<alertCDirectionCoded>unknown</alertCDirectionCoded>
+</alertCDirection>
+<alertCMethod2PrimaryPointLocation>
+<alertCLocation>
+<specificLocation>20020</specificLocation>
+</alertCLocation>
+</alertCMethod2PrimaryPointLocation>
+
+</alertCPoint>
+<pointByCoordinates>
+<pointCoordinates>
+<latitude>44.490383</latitude>
+<longitude>11.35791</longitude>
+</pointCoordinates>
+</pointByCoordinates>
+</locationContainedInGroup>
+
+</groupOfLocations>
+
+</situationRecord>
+
+</situation>
+
+<situation xsi:type="Situation" id="ID_224842">
+<headerInformation>
+<confidentiality>noRestriction</confidentiality>
+<informationStatus>real</informationStatus>
+<urgency>normalUrgency</urgency>
+</headerInformation>
+
+<situationRecord xsi:type="AbnormalTraffic" id="ID_197802">
+    
+<situationRecordCreationTime>2012-02-03T09:30:33+01:00</situationRecordCreationTime>
+<situationRecordVersion>2</situationRecordVersion>
+<situationRecordVersionTime>2012-02-03T09:30:33+01:00</situationRecordVersionTime>
+
+<situationRecordFirstSupplierVersionTime>2012-02-03T09:30:33+01:00</situationRecordFirstSupplierVersionTime>
+<probabilityOfOccurrence>certain</probabilityOfOccurrence>
+<sourceInformation>
+<sourceIdentification>Comune di Bologna</sourceIdentification>
+<sourceName>
+<value lang="it">Comune di Bologna</value>
+<value lang="en">Bologna Road Administration</value>
+</sourceName>
+<sourceType>roadAuthorities</sourceType>
+</sourceInformation>
+<validity>
+
+<validityStatus>definedByValidityTimeSpec</validityStatus>
+<validityTimeSpecification>
+<overallStartTime>2012-01-09T08:30:00+01:00</overallStartTime>
+<overallEndTime>2012-03-30T17:00:00+01:00</overallEndTime>
+</validityTimeSpecification>
+</validity>
+<generalPublicComment>
+<comment>
+<value lang="it">Pratello intersezione pietralata strada chiusa per lavori edili entrata da Paradiso</value>
 </comment>
 </generalPublicComment>
 <groupOfLocations>
@@ -1733,80 +2592,39 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20163</specificLocation>
+<specificLocation>20009</specificLocation>
 </alertCLocation>
+
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.48211</latitude>
-<longitude>11.337465</longitude>
+<latitude>44.494587</latitude>
+<longitude>11.328104</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
-
-</groupOfLocations>
-
-<NetworkManagementType>singleAlternateLineTraffic</NetworkManagementType>
-
-</situationRecord>
-
-</situation>
-
-<situation xsi:type="Situation" id="ID_531982">
-<headerInformation>
-<confidentiality>noRestriction</confidentiality>
-<informationStatus>real</informationStatus>
-<urgency>normalUrgency</urgency>
-</headerInformation>
-
-<situationRecord xsi:type="NetworkManagement" id="ID_504942">
-
-<situationRecordCreationTime>2013-03-26T16:24:40+01:00</situationRecordCreationTime>
-<situationRecordVersion>1</situationRecordVersion>
-<situationRecordVersionTime>2013-03-26T16:24:40+01:00</situationRecordVersionTime>
-<situationRecordFirstSupplierVersionTime>2013-03-26T16:24:40+01:00</situationRecordFirstSupplierVersionTime>
-<probabilityOfOccurrence>certain</probabilityOfOccurrence>
-<sourceInformation>
-<sourceIdentification>Comune di Bologna</sourceIdentification>
-<sourceName>
-<value lang="it">Comune di Bologna</value>
-<value lang="en">Bologna Road Administration</value>
-</sourceName>
-<sourceType>roadAuthorities</sourceType>
-</sourceInformation>
-<validity>
-<validityStatus>definedByValidityTimeSpec</validityStatus>
-<validityTimeSpecification>
-<overallStartTime>2013-03-31T08:30:00+01:00</overallStartTime>
-<overallEndTime>2013-04-20T16:30:00+01:00</overallEndTime>
-</validityTimeSpecification>
-</validity>
-<generalPublicComment>
-<comment>
-<value lang="it">guglielmini civ 11 traffico regolato a vista per restringimenti</value>
-</comment>
-</generalPublicComment>
-<groupOfLocations>
 
 <locationContainedInGroup xsi:type="Point">
 <alertCPoint xsi:type="AlertCMethod2Point">
 <alertCLocationCountryCode>IT</alertCLocationCountryCode>
 <alertCLocationTableNumber>1</alertCLocationTableNumber>
+
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20118</specificLocation>
+<specificLocation>20010</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.479042</latitude>
-<longitude>11.365575</longitude>
+<latitude>44.49554</latitude>
+
+<longitude>11.328473</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
@@ -1818,24 +2636,23 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 <alertCLocationTableVersion>2</alertCLocationTableVersion>
 <alertCDirection>
 <alertCDirectionCoded>unknown</alertCDirectionCoded>
+
 </alertCDirection>
 <alertCMethod2PrimaryPointLocation>
 <alertCLocation>
-<specificLocation>20109</specificLocation>
+<specificLocation>20087</specificLocation>
 </alertCLocation>
 </alertCMethod2PrimaryPointLocation>
 </alertCPoint>
 <pointByCoordinates>
 <pointCoordinates>
-<latitude>44.479042</latitude>
-<longitude>11.365575</longitude>
+<latitude>44.49483</latitude>
+<longitude>11.327808</longitude>
 </pointCoordinates>
 </pointByCoordinates>
 </locationContainedInGroup>
 
 </groupOfLocations>
-
-<NetworkManagementType>singleAlternateLineTraffic</NetworkManagementType>
 
 </situationRecord>
 
@@ -1843,4 +2660,3 @@ http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
 
 </payloadPublication>
 </d2LogicalModel>
-

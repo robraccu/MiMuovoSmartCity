@@ -7,31 +7,32 @@
 	</compatibility>
 	<theme id="Eng-Cleap-Colors" name="Eng Cleap Colors">
 		<settings>
-			<setting key="portlet-setup-show-borders-default" value="true"></setting>
+			<setting key="portlet-setup-show-borders-default" value="true"/>
 		</settings>
 		<roles>
 			<role-name>administrator</role-name>
 		</roles>
 		<color-scheme id="01" name="Silver">
-			<default-cs>true</default-cs>
-			<css-class></css-class>
-			<color-scheme-images-path>${images-path}</color-scheme-images-path>
-		</color-scheme>
-		<color-scheme id="02" name="Blue">
-			<css-class>blue</css-class>
-			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
-		</color-scheme>
-		<color-scheme id="03" name="Red">
-			<css-class>red</css-class>
-			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
-		</color-scheme>
-		<color-scheme id="04" name="Orange">
-			<css-class>orange</css-class>
-			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
-		</color-scheme>
-		<color-scheme id="05" name="Orange Light">
-			<css-class>orange-light</css-class>
-			<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
-		</color-scheme>
+	        <default-cs>true</default-cs>
+	        <css-class></css-class>
+	        <color-scheme-images-path>${images-path}</color-scheme-images-path>
+     	</color-scheme>
+     	<color-scheme id="02" name="Blue">
+	        <css-class>blue</css-class>
+	        <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+	    </color-scheme>
+	    <color-scheme id="03" name="Red">
+	        <css-class>red</css-class>
+	        <color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+	    </color-scheme>
+	    <color-scheme id="04" name="Orange">
+	    	<css-class>orange</css-class>
+	    	<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+	    </color-scheme>
+	     <color-scheme id="05" name="Orange Light">
+	    	<css-class>orange-light</css-class>
+	    	<color-scheme-images-path>${images-path}/color_schemes/${css-class}</color-scheme-images-path>
+	    </color-scheme>
+
 	</theme>
 </look-and-feel>

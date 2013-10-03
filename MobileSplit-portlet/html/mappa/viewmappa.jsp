@@ -45,6 +45,7 @@ String friendly_url=layout.getGroup().getFriendlyURL();
 					<option value="accessibility" id="accessibility_check"><fmt:message key='luoghiAccessibili'/></option>
 					<option value="parcheggi" id="parcheggi_check" ><fmt:message key='parcheggi'/></option>
 					<option value="ciclopedpub" id="ciclopedpub_check"><fmt:message key='pisteCiclabili'/></option>
+					<option value="taxi" id="taxi_check"><fmt:message key='postTaxi'/></option>
 					<option value="eventi" id="eventi_check"><fmt:message key='problCircolazione'/></option>
 					<option value="camera" id="telecamere_check"><fmt:message key='telecamere'/></option>
 					<option value="traffico" id="traffico_check"><fmt:message key='traffico'/></option>
@@ -183,22 +184,17 @@ String friendly_url=layout.getGroup().getFriendlyURL();
 		 <div data-role="content" >    
 		 <div id="dummy" style="height:30px;"></div>
 			<ul data-role="listview" data-dividertheme="a"  >
-				<li data-role="list-divider"><fmt:message key="secTraffico"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="fluido"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="fluidoStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="heavy"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="heavyStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="congested"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="congestedStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="coda"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="codaStr"/></li>
+				<li data-role="list-divider"><fmt:message key="secBus"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="busstop_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="busstop_smallStr"/></li>
+				<li data-role="list-divider"><fmt:message key="secAccessibili"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_green_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_green_smallStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_yellow_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_yellow_smallStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_red_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_red_smallStr"/></li>
 				<li data-role="list-divider"><fmt:message key="secPark"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="parking_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="parking_smallStr"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="parchimetro"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="parchimetroStr"/></li>
-				<li data-role="list-divider"><fmt:message key="secProblemi"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="lavori_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="lavoriLbl"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="abnormaltraffic_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="limitazioniLbl"/></li>
-				<li data-role="list-divider"><fmt:message key="secTelecamere"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="rita_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="rita_smallStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="sirio_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="sirio_smallStr"/></li>		
 				<li data-role="list-divider"><fmt:message key="secCiclo"/></li>
-				<li><div><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile1"/>  class="ui-li-icon"></div>&nbsp;&nbsp;&nbsp;&nbsp;<div><fmt:message key="ciclabileStr1"/></div></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile1"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclabileStr1"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile2"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclabileStr2"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile3"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclabileStr3"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_itinerario"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="itinerarioStr1"/></li>
@@ -208,14 +204,21 @@ String friendly_url=layout.getGroup().getFriendlyURL();
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_percnat1"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="percnatStr1"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_percnat2"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="percnatStr2"/></li>
 				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclopark_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclopark_smallStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="cicloracks_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="cicloracks_smallStr"/></li>
-				<li data-role="list-divider"><fmt:message key="secAccessibili"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_green_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_green_smallStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_yellow_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_yellow_smallStr"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="la_red_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_red_smallStr"/></li>
-				<li data-role="list-divider"><fmt:message key="secBus"/></li>
-				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="busstop_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="busstop_smallStr"/></li>
-				
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="cicloracks_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="cicloracks_smallStr"/></li>				
+				<li data-role="list-divider"><fmt:message key="secTaxi"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="taxi_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="taxiStr"/></li>
+				<li data-role="list-divider"><fmt:message key="secProblemi"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="lavori_small"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="lavoriLbl"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="abnormaltraffic_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="limitazioniLbl"/></li>
+				<li data-role="list-divider"><fmt:message key="secTelecamere"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="rita_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="rita_smallStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="sirio_small"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="sirio_smallStr"/></li>		
+				<li data-role="list-divider"><fmt:message key="secTraffico"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="fluido"/>  class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="fluidoStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="heavy"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="heavyStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="congested"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="congestedStr"/></li>
+				<li><img src=<fmt:message key="imagesPath"/><fmt:message key="coda"/> class="ui-li-icon">&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="codaStr"/></li>
+								
 			</ul>
 		 </div>
 		<div id="dummy" style="height:30px;"></div>
@@ -278,13 +281,13 @@ String friendly_url=layout.getGroup().getFriendlyURL();
     		<div id="cercapuntoDiv">
     		<div>
     			<div data-role="fieldcontain">	
-    				<label for="punto"><b><fmt:message key="cercaItinerario"/></b></label>
+    				<label for="punto"><b><fmt:message key="cercaPunto"/></b></label>
 					<input name="punto" type="text" id="punto" value=""></input>
 				</div> 
 				</div>
 				<div id="calcresetDiv">
 					<a href="#" data-role="button" id="calcpoint" onclick="ShowPoint()" data-inline="true"><fmt:message key="mostra"/></a>			 
-					<a href="#" data-role="button"id="resetpoint" onclick="ResetRoute()" data-inline="true"><fmt:message key="annulla"/></a>
+					<a href="#" data-role="button"id="resetpoint" onclick="ResetPoint()" data-inline="true"><fmt:message key="annulla"/></a>
 				</div>
 					
     		</div>
@@ -304,8 +307,8 @@ String friendly_url=layout.getGroup().getFriendlyURL();
 			<a href="#" data-role="button" id="calcroute" onclick="CalcRoute()" data-inline="true"><fmt:message key="calcola"/></a>			 
 			<a href="#" data-role="button"id="resetroute" onclick="ResetRoute()" data-inline="true"><fmt:message key="annulla"/></a>
 			</div>
-			<div><fmt:message key="vaimappa"/>
-			 <a href="#mappa_page" ><img src=<fmt:message key="imagesPath"/><fmt:message key="map_link"/> id="mapRoute_link"/></a>
+			<div>
+			 <a href="#mappa_page" ><fmt:message key="vaimappa"/></a>
 			</div>	
 				<fieldset data-role="controlgroup" data-type="horizontal" id="travelMode">
 					<input type="radio" id="autoMode" name="travelModeradio" checked="checked" onclick="ShowRoute('driving')" value="driving"/>

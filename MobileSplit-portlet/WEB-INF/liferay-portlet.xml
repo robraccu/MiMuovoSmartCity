@@ -2,6 +2,7 @@
 <!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.1.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_1_0.dtd">
 
 <liferay-portlet-app>
+	
 	<portlet>
 		<portlet-name>mobilesplit</portlet-name>
 		<icon>/icon.png</icon>
@@ -17,23 +18,26 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/ui/1.8.18/jquery-ui.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/infobubble.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/parseEventsKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCameraKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCiclopedpubKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseAccessibilityKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseFermateBusKMLForMap.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseLineeKMLForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseLineeKMLForMap.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/parseTrafficKMLForMap.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/TaxiForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/parseEventsXML.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/custom.js</header-portlet-javascript>
+
 		<css-class-wrapper>mappa-portlet</css-class-wrapper>
 	</portlet>
 	<portlet>
@@ -43,13 +47,14 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/infobubble.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>		
+		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/custom.js</header-portlet-javascript>
 		<css-class-wrapper>parcheggi-portlet</css-class-wrapper>
 	</portlet>
@@ -60,21 +65,23 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/infobubble.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/parseEventsKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCameraKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCiclopedpubKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseAccessibilityKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseFermateBusKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseTrafficKMLForMap.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseEventsXML.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>		
+		<header-portlet-javascript>/js/parseEventsXML.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/custom.js</header-portlet-javascript>
+
 		<css-class-wrapper>eventi-portlet</css-class-wrapper>
 	</portlet>
 	<portlet>
@@ -84,21 +91,23 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/infobubble.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKMLForMap.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/parseEventsKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCameraKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseCiclopedpubKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseAccessibilityKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseFermateBusKMLForMap.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/parseTrafficKMLForMap.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>
-		<header-portlet-javascript>/js/parseEventsXML.js</header-portlet-javascript>
+		<header-portlet-javascript>/js/parseParkingKML.js</header-portlet-javascript>		
+		<header-portlet-javascript>/js/parseEventsXML.js</header-portlet-javascript>		
 		<header-portlet-javascript>/js/custom.js</header-portlet-javascript>
+
 		<css-class-wrapper>homeguest-portlet</css-class-wrapper>
 	</portlet>
 	<portlet>
@@ -108,10 +117,11 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
+
 		<css-class-wrapper>codicisms-portlet</css-class-wrapper>
 	</portlet>
 	<portlet>
@@ -120,10 +130,11 @@
 		<header-portlet-css>/css/themes/smartip.css</header-portlet-css>
 		<header-portlet-css>/css/jquery.mobile.structure-1.0.1.min.css</header-portlet-css>
 		<header-portlet-css>/css/custom.css</header-portlet-css>
-		<header-portlet-javascript>http://maps.google.com/maps/api/js?libraries=places&amp;sensor=true</header-portlet-javascript>
+		<header-portlet-javascript>http://maps.google.com/maps/api/js?v=3.12&amp;libraries=places&amp;sensor=true</header-portlet-javascript>
 		<header-portlet-javascript>http://code.jquery.com/jquery-1.7.1.min.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/mobile.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery.mobile-1.0.1.min.js</header-portlet-javascript>
+
 		<css-class-wrapper>stradepulite-portlet</css-class-wrapper>
 	</portlet>
 	<role-mapper>

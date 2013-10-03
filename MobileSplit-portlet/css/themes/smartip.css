@@ -172,7 +172,7 @@ a.ui-link-inherit {
 	border: 1px solid #716f74 /*{global-active-border}*/;
 	background: #ff9900 /*{global-active-background-color}*/;
 	font-weight: bold;
-	color: #ffffff /*{global-active-color}*/;
+	color: #cccccc /*{global-active-color}*/;
 	cursor: pointer;
 	text-shadow:  0  /*{global-active-shadow-x}*/ 0px /*{global-active-shadow-y}*/ 0px /*{global-active-shadow-radius}*/ #eeeeff /*{global-active-shadow-color}*/;
 	text-decoration: none;
@@ -185,7 +185,7 @@ a.ui-link-inherit {
 	         font-family:  Arial, sans-serif  /*{global-font-family}*/;
 }
 .ui-btn-active a.ui-link-inherit {
-	color: #ffffff /*{global-active-color}*/;
+	color: #cccccc /*{global-active-color}*/;
 }
 
 
@@ -571,4 +571,10 @@ a.ui-link-inherit {
 /* ...and bring back focus */
 .ui-mobile-nosupport-boxshadow .ui-focus {
 	outline-width: 2px;
+}
+	
+/*ROB aggiustamenti Legenda*/
+
+.ui-li-icon.ui-li-thumb {
+    width: 21px;
 }

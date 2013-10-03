@@ -12,24 +12,34 @@ function GetFermateBusForMap(){
 	if(view_fermatebus==true){
 
 		var timestampF=new Date().getTime();//timestamp da aggiungere all'url del kml per il refresh della cache del server di google
-		FermateBusLayer = new google.maps.KmlLayer(kmlPath+fermatebusKML+'?ts='+timestampF,
-				{suppressInfoWindows: true,
-	        map: map,
-	        preserveViewport: true
-	    });
+		FermateBusLayer = new google.maps.FusionTablesLayer({
+		      map: map,
+		      preserveViewport: true,
+		      heatmap: { enabled: false },
+		      query: {
+		          select: colFermateBus,
+		          from: idFermateBus,
+		          where: ""
+		        },
+		        options: {
+		        suppressInfoWindows: true,
+		          styleId: 2,
+		          templateId: 2
+		        }
+		 });
 		FermateBusLayer.setMap(map);
 		infoFermateBus = new InfoBubble();
 		infoFermateBus2 = new InfoBubble();
-		google.maps.event.addListener(FermateBusLayer, 'click', function(kmlEvent){
+		google.maps.event.addListener(FermateBusLayer, 'click', function(layerEvent){
 			
 			
 			
 		 	var arraylinee = new Array();
-		 	codfermata = kmlEvent.featureData.description.split("--")[0];
-		 	nome= kmlEvent.featureData.description.split("--")[1];
-		 	ubicazione= kmlEvent.featureData.description.split("--")[2];
+		 	codfermata = layerEvent.row.codice.value;
+		 	nome= layerEvent.row.denominazione.value;
+		 	ubicazione= layerEvent.row.ubicazione.value;
 		 	respServizio="";
-		 	stringa_linee=kmlEvent.featureData.description.split("--")[3];
+		 	stringa_linee=layerEvent.row.linee.value;
 		 	elenco_linee="";
 		 	view_linea=false; //false=ancora non è stata mostrata nessuna info per la linea
 		 	//creo array delle linee
@@ -52,7 +62,7 @@ function GetFermateBusForMap(){
 		 	prox2bus="<li><a href='#'id='linea_"+currentlinea+"'onclick="+requestprox2bus+">"+prossimiBus+"</a></li>";
 		 	requestresale="OpenInfo('"+codfermata+"','','',2,"+view_linea+")";
 		 	resale="<li><a href='#'onclick="+requestresale+">"+rivendita+"</a></li>";
-		 	posF = kmlEvent.latLng;
+		 	posF =layerEvent.latLng;
 		 	if (!infoFermateBus.isOpen()) { 
 		 		infoFermateBus.setOptions({	
 			        content:'<div  class="infoWindowText">' +

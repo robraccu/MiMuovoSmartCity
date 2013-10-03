@@ -37,7 +37,23 @@ var friendly_url_js="<%=friendly_url%>";
     	</div>-->
     	<!-- /header -->
     	<div data-role="content" id="home_content" >   
-    		<fieldset class="ui-grid-b" id="page_icon_group">
+    		<fieldset class="ui-grid-a" id="page_icon_group">
+				<div class="ui-block-a"><div class="iconHome"><a href="..<%=friendly_url%>/cisium-mobile#busArea_page" rel="external" id="mappebus"><img src=<fmt:message key="imagesPath"/><fmt:message key="fermatebus_home"/> /></a></div>
+					<label class="home_icon_label" for="mappebus">in bus, treno, taxi</label>
+				</div>
+				<div class="ui-block-b"><div class="iconHome"><a href="..<%=friendly_url%>/cisium-mobile#autoArea_page" rel="external" id="informazioni"><img src=<fmt:message key="imagesPath"/><fmt:message key="auto_home"/> /></a></div>
+					<label class="home_icon_label" for="mappebus">in auto, moto</label>
+				</div>	   
+			</fieldset> 
+    		<fieldset class="ui-grid-a" id="page_icon_group">
+				<div class="ui-block-a" ><div class="iconHome"><a href="..<%=friendly_url%>/cisium-mobile#biciArea_page" rel="external" id="pisteciclabili"><img src=<fmt:message key="imagesPath"/><fmt:message key="pisteciclabili_home"/> /></a></div>
+					<label class="home_icon_label" for="pisteciclabili">in bici</label>
+				</div> 
+				<div class="ui-block-b"><div class="iconHome"><a href="..<%=friendly_url%>/cisium-mobile#piediArea_page" rel="external" id="mappebus"><img src=<fmt:message key="imagesPath"/><fmt:message key="piedi_home"/> /></a></div>
+					<label class="home_icon_label" for="mappebus">a piedi</label>
+				</div>	   
+			</fieldset> 
+    		<!--  <fieldset class="ui-grid-b" id="page_icon_group">
 				<div class="ui-block-a" ><div class="iconHome"><a href="..<%=friendly_url%><fmt:message key="buspage"/>" rel="external" id="mappebus"><img src=<fmt:message key="imagesPath"/><fmt:message key="fermatebus_home"/> /></a></div>
 					<label class="home_icon_label" for="mappebus"><fmt:message key="busLbl"/></label>
 				</div>
@@ -69,16 +85,18 @@ var friendly_url_js="<%=friendly_url%>";
 				<div class="ui-block-c" ><div class="iconHome"><a href="..<%=friendly_url%><fmt:message key="informazionipage"/>" rel="external" id="informazioni"><img src=<fmt:message key="imagesPath"/><fmt:message key="informazioni_home"/> /></a></div>
 					<label class="home_icon_label" for="informazioni"><fmt:message key="informazioniLbl"/></label>			
 				</div>
-	  		</fieldset>
+	  		</fieldset>-->
 	  		<fieldset class="ui-grid-b" id="page_icon_group">
 	  		<div class="ui-block-a" ></div>				
 	  		</fieldset>
 	  		<div id="cisium_logo">
 	  			<img src=<fmt:message key="imagesPath"/><fmt:message key="cisium-logo"/>>
 	  		</div>
+	  	<!-- 
 	  	<span>
     	<a id="linktoDesktop" href="http://smart.comune.bologna.it/gioca/" target="_blank"><fmt:message key="linktoOpinione"/></a>
     	</span>
+    	 -->
     	<span style="float:right;">
     	<a id="linktoDesktop" href="..<%=friendly_url%>/home-desktop" ><fmt:message key="linktoDesktop"/></a>
     	</span>
@@ -128,4 +146,130 @@ var friendly_url_js="<%=friendly_url%>";
 		</div><!-- /footer -->
 		
 	</div><!-- /page -->
+	<!-- Start of autoArea_page -->
+   	<div id="autoArea_page" data-role="page" data-theme="a" data-back-btn="false" class="area_page">    
+    	<div data-role="header" data-theme="a" data-position="inline"   >
+    	<div data-role="controlgroup" data-type="horizontal" id="header_elements" class="ui-btn-left">
+       	 	<a href="..<%=friendly_url%><fmt:message key='homepage'/>" data-role="button" data-direction="reverse" id="btnToHome" >
+       	 		<img src=<fmt:message key="imagesPath"/><fmt:message key="home"/>></img>
+			</a> 
+			
+			</div>
+    	<h1>In auto, moto</h1>
+    	</div><!-- /header -->
+    	<div data-role="content" id="autoArea_content" >   
+    	<ul data-role="listview">
+			<li><a href="..<%=friendly_url%><fmt:message key="mappapage"/>" rel="external" id="mappa">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="traffico_home"/>></img>
+				<h1><fmt:message key="secTraffico"/></h1>				
+			</a></li>
+			<li><a href="..<%=friendly_url%><fmt:message key="parcheggipage"/>" rel="external" id="parcheggi">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="parcheggi_home"/>></img>
+				<h1><fmt:message key="parcheggi"/></h1>			
+			</a></li>
+			<li><a href="..<%=friendly_url%>/eventi" rel="external" id="eventi">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="eventi_home"/>></img>
+				<h1><fmt:message key="problCircolazione"/></h1>			
+			</a></li>
+			<li><a href="..<%=friendly_url%><fmt:message key="stradepage"/>" rel="external" id="stradepulite">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="stradepulite_home"/>></img>
+				<h1><fmt:message key="stradeLbl"/></h1>			
+			</a></li>
+ 		</ul>
+    	</div><!-- /content -->
+    	
+    	<div class='footer-wrapper'>
+    	<div data-role="footer"  data-theme="a">
+    	   </div>
+			
+		</div><!-- /footer -->
+		
+	</div><!-- /page -->
+	
+	<!-- Start of busArea_page -->
+   	<div id="busArea_page" data-role="page" data-theme="a" data-back-btn="false" class="area_page">    
+    	<div data-role="header" data-theme="a" data-position="inline"   >
+    	<div data-role="controlgroup" data-type="horizontal" id="header_elements" class="ui-btn-left">
+       	 	<a href="..<%=friendly_url%><fmt:message key='homepage'/>" data-role="button" data-direction="reverse" id="btnToHome" >
+       	 		<img src=<fmt:message key="imagesPath"/><fmt:message key="home"/>></img>
+			</a> 
+			
+			</div>
+    	<h1>In bus, treno e taxi</h1>
+    	</div><!-- /header -->
+    	<div data-role="content" id="busArea_content" >   
+    	<ul data-role="listview">
+			<li><a href="..<%=friendly_url%><fmt:message key="buspage"/>" rel="external" id="mappebus">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="fermatebus_home"/>></img>
+				<h1><fmt:message key="busLbl"/></h1>				
+			</a></li>
+			<li><a href="..<%=friendly_url%><fmt:message key="taxipage"/>" rel="external" id="taxi">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="postazionitaxi_home"/>></img>
+				<h1><fmt:message key="taxiLbl"/></h1>				
+			</a></li>
+ 		</ul>
+    	</div><!-- /content -->
+    	
+    	<div class='footer-wrapper'>
+    	<div data-role="footer"  data-theme="a">
+    	   </div>
+			
+		</div><!-- /footer -->
+		
+	</div><!-- /page -->
+	<!-- Start of biciArea_page -->
+   	<div id="biciArea_page" data-role="page" data-theme="a" data-back-btn="false" class="area_page">    
+    	<div data-role="header" data-theme="a" data-position="inline"   >
+    	<div data-role="controlgroup" data-type="horizontal" id="header_elements" class="ui-btn-left">
+       	 	<a href="..<%=friendly_url%><fmt:message key='homepage'/>" data-role="button" data-direction="reverse" id="btnToHome" >
+       	 		<img src=<fmt:message key="imagesPath"/><fmt:message key="home"/>></img>
+			</a> 
+			
+			</div>
+    	<h1>In bici</h1>
+    	</div><!-- /header -->
+    	<div data-role="content" id="biciArea_content" >   
+    	<ul data-role="listview">
+			<li><a href="..<%=friendly_url%><fmt:message key="ciclopedpubpage"/>" rel="external" id="pisteciclabili">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="pisteciclabili_home"/>></img>
+				<h1><fmt:message key="pisteCiclabili"/></h1>				
+			</a></li>
+ 		</ul>
+    	</div><!-- /content -->
+    	
+    	<div class='footer-wrapper'>
+    	<div data-role="footer"  data-theme="a">
+    	   </div>
+			
+		</div><!-- /footer -->
+		
+	</div><!-- /page -->
+	<!-- Start of piediArea_page -->
+   	<div id="piediArea_page" data-role="page" data-theme="a" data-back-btn="false" class="area_page">    
+    	<div data-role="header" data-theme="a" data-position="inline"   >
+    	<div data-role="controlgroup" data-type="horizontal" id="header_elements" class="ui-btn-left">
+       	 	<a href="..<%=friendly_url%><fmt:message key='homepage'/>" data-role="button" data-direction="reverse" id="btnToHome" >
+       	 		<img src=<fmt:message key="imagesPath"/><fmt:message key="home"/>></img>
+			</a> 
+			
+			</div>
+    	<h1>A piedi</h1>
+    	</div><!-- /header -->
+    	<div data-role="content" id="piediArea_content" >   
+    	<ul data-role="listview">
+			<li><a href="..<%=friendly_url%><fmt:message key="accessibilitypage"/>" rel="external" id="disabili">
+				<img src=<fmt:message key="imagesPath"/><fmt:message key="disabili_home"/>></img>
+				<h1><fmt:message key="luoghiAccessibili"/></h1>				
+			</a></li>
+ 		</ul>
+    	</div><!-- /content -->
+    	
+    	<div class='footer-wrapper'>
+    	<div data-role="footer"  data-theme="a">
+    	   </div>
+			
+		</div><!-- /footer -->
+		
+	</div><!-- /page -->
+	
 	

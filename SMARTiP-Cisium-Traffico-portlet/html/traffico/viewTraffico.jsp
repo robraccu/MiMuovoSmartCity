@@ -43,6 +43,7 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 	<option value="6"><fmt:message key="luoghiAccessibili"/></option>
 	<option value="2"><fmt:message key="parcheggi"/></option>
 	<option value="4"><fmt:message key="pisteCiclabili"/></option>
+	<option value="8"><fmt:message key="postTaxi"/></option>
 	<option value="3"><fmt:message key="problCircolazione"/></option>
 	<option value="5"><fmt:message key="telecamere"/></option>
 	<option value="1"><fmt:message key="traffico"/></option>
@@ -54,17 +55,15 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 	<div id="dialog" title="Legenda">
 		<!-- qui viene creata la legenda dei layer  -->
 		<dl>
-		<dt><a href="#" class="linklayer" id="linklayer_1"><fmt:message key="secTraffico"/></a></dt>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="fluido"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="fluidoStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="heavy"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="heavyStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="congested"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="congestedStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="coda"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="codaStr"/></dd>
+		<dt><a href="#" class="linklayer" id="linklayer_7"><fmt:message key="secBus"/></a></dt>	
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="busstop_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="busstop_smallStr"/></dd>
+		<dt><a href="#" class="linklayer" id="linklayer_6"><fmt:message key="secAccessibili"/></a></dt>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_green_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_green_smallStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_yellow_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_yellow_smallStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_red_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_red_smallStr"/></dd>
 		<dt><a href="#" class="linklayer" id="linklayer_2"><fmt:message key="secPark"/></a></dt>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="parking_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="parking_smallStr"/></dd>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="parchimetro"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="parchimetroStr"/></dd>
-		<dt><a href="#" class="linklayer" id="linklayer_3"><fmt:message key="secProblemi"/></a></dt>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="lavori_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="lavori_smallStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="abnormaltraffic_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="abnormaltraffic_smallStr"/></dd>
 		<dt><a href="#" class="linklayer" id="linklayer_4"><fmt:message key="secCiclo"/></a></dt>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile1"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclabileStr1"/></dd>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_ciclabile2"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclabileStr2"/></dd>
@@ -77,16 +76,20 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclo_percnat2"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="percnatStr2"/></dd>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="ciclopark_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="ciclopark_smallStr"/></dd>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="cicloracks_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="cicloracks_smallStr"/></dd>
+		<dt><a href="#" class="linklayer" id="linklayer_1"><fmt:message key="secTaxi"/></a></dt>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="taxiicon"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="taxiStr"/></dd>		
+		<dt><a href="#" class="linklayer" id="linklayer_3"><fmt:message key="secProblemi"/></a></dt>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="lavori_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="lavori_smallStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="abnormaltraffic_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="abnormaltraffic_smallStr"/></dd>
 		<dt><a href="#" class="linklayer" id="linklayer_5"><fmt:message key="secTelecamere"/></a></dt>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="rita_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="rita_smallStr"/></dd>
 		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="sirio_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="sirio_smallStr"/></dd>
-		<dt><a href="#" class="linklayer" id="linklayer_6"><fmt:message key="secAccessibili"/></a></dt>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_green_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_green_smallStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_yellow_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_yellow_smallStr"/></dd>
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="la_red_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="la_red_smallStr"/></dd>
-		<dt><a href="#" class="linklayer" id="linklayer_7"><fmt:message key="secBus"/></a></dt>	
-		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="busstop_small"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="busstop_smallStr"/></dd>
-
+		<dt><a href="#" class="linklayer" id="linklayer_1"><fmt:message key="secTraffico"/></a></dt>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="fluido"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="fluidoStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="heavy"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="heavyStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="congested"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="congestedStr"/></dd>
+		<dd><img src=<fmt:message key="imagesPath"/><fmt:message key="coda"/>>&nbsp;&nbsp;&nbsp;&nbsp;<fmt:message key="codaStr"/></dd>
+		
 		</dl>
 	</div>
 	<button id="opener"><fmt:message key="legenda"/></button>
@@ -161,7 +164,7 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 	
 	var script = document.createElement("script");
 	script.type = "text/javascript";
-	script.src = "http://maps.google.com/maps/api/js?libraries=places&sensor=false&callback=loadScript";
+	script.src = "http://maps.google.com/maps/api/js?v=3.12&libraries=places&sensor=false&callback=loadScript";
 	document.body.appendChild(script);
 	
 	function loadScript(){
@@ -175,6 +178,7 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 		view_accessibility=true;
 		view_fermatebus=true;
 		view_lineebus=true;
+		view_taxi=true;
 		directionsService = new google.maps.DirectionsService();
 		var styleArray = [
 			                 {
@@ -258,6 +262,9 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 				case 7:
 					GetFermateBusForMap();
 					 break;
+				case 8:
+					GetTaxiForMap();
+					 break;
 				default:
 					var check=0;
 				}
@@ -328,13 +335,14 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 		    		  infowindow.open(map,markerPoint);
 		    		});
 		      }
+		 			/*
 			    		//carico il layer del traffico se non è attivo
 						if($("#select-layers option[value='1']")[0].selected==false){
 			    		$("#select-layers").multiselect("widget").find(":checkbox[value='1']").each(function() {
 			    		    this.click();
 			    		   
 			    		}); 
-			    	  } 
+			    	  }*/ 
 	}
 
 	//funzione richiamata per iniziare il processo di calcolo del percorso
@@ -387,7 +395,7 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 		    		 	directionsService.route(request, function(result, status) {
 		  		   		 if (status == google.maps.DirectionsStatus.OK) {
 		  		   			directionsResult=result;
-		  		   			 if(result.routes.length>1){
+		  		   			 if(result.routes.length>0){
 		  		      			for(var i=0; i<result.routes.length;i++){
 		  		      				
 		  		      				CreateRadioButtonRoute(directionsResult,i+1);
@@ -402,12 +410,14 @@ maxUrl.setWindowState(WindowState.MAXIMIZED);
 		  		  		});			
   		 	$( "#routeDetailsBtn" ).accordion( "option", "active", "none" );
   		 	resizeMap();
+  		 	/*
+    		//carico il layer del traffico se non è attivo
 			if($("#select-layers option[value='1']")[0].selected==false){
 			    		$("#select-layers").multiselect("widget").find(":checkbox[value='1']").each(function() {
 			    		    this.click();
 			    		   
 			    		}); 
-			    	  } 
+			    	  }*/ 
 		      		
 	}
 	//crea un gruppo di radio button per la selezione dei percorsi

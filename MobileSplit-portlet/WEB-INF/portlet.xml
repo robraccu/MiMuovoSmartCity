@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
 <portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	
 	<portlet>
 		<portlet-name>mobilesplit</portlet-name>
 		<display-name>MobileSplit</display-name>
@@ -66,7 +67,9 @@
 	<portlet>
 		<portlet-name>parcheggi</portlet-name>
 		<display-name>Parcheggi</display-name>
-		<portlet-class>com.eng.cisium.parcheggi.Parcheggi</portlet-class>
+		<portlet-class>
+			com.eng.cisium.parcheggi.Parcheggi
+		</portlet-class>
 		<init-param>
 			<name>view-jsp</name>
 			<value>/html/parcheggi/view.jsp</value>
@@ -129,7 +132,9 @@
 	<portlet>
 		<portlet-name>homeguest</portlet-name>
 		<display-name>HomeGuest</display-name>
-		<portlet-class>com.eng.cisium.homeguest.HomeGuest</portlet-class>
+		<portlet-class>
+			com.eng.cisium.homeguest.HomeGuest
+		</portlet-class>
 		<init-param>
 			<name>view-jsp</name>
 			<value>/html/homeguest/view.jsp</value>
@@ -161,7 +166,9 @@
 	<portlet>
 		<portlet-name>codicisms</portlet-name>
 		<display-name>CodiciSMS</display-name>
-		<portlet-class>com.eng.cisium.codicisms.CodiciSMS</portlet-class>
+		<portlet-class>
+			com.eng.cisium.codicisms.CodiciSMS
+		</portlet-class>
 		<init-param>
 			<name>view-jsp</name>
 			<value>/html/codicisms/view.jsp</value>
@@ -193,7 +200,9 @@
 	<portlet>
 		<portlet-name>stradepulite</portlet-name>
 		<display-name>Strade Pulite</display-name>
-		<portlet-class>com.eng.cisium.stradepulite.StradePulite</portlet-class>
+		<portlet-class>
+			com.eng.cisium.stradepulite.StradePulite
+		</portlet-class>
 		<init-param>
 			<name>view-jsp</name>
 			<value>/html/stradepulite/view.jsp</value>

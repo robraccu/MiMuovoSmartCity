@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <name>Parking.kml</name>
+        <Style id="Parcheggi">
+            <IconStyle>
+                <scale>0.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://divino.eng.it/SMARTiP-DynamicData/images/parking.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark>
+            <name>ANTISTADIO--96</name>
+            <description>ANTISTADIO--18/01/2012 23:57--283--96--servizio non presente--servizio non presente--servizio non presente--Non disponibili--Dalle 07.00 alle 21.00
+esclusi agosto e festivi--n.d.--ANT--n.d.--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.307071,44.493767</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GIURIOLO--n.d.</name>
+            <description>GIURIOLO--n.d.--940--n.d.--servizio non presente--servizio non presente--servizio non presente--Euro 0,52 /h  fino alla 3 ora
+Euro 3,10  dalla 4 alla 10 ora
+Euro 0,52 /h dalla 11 ora in poi
+deposito bici euro 6,20/m 
+il noleggio e' gratuito per utenti del parcheggio--Sempre aperto
+tutti i giorni--051/370252--GIU--n.d.--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.346022,44.526798</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PARCHEGGIO AUTOSTAZIONE--40</name>
+            <description>PARCHEGGIO AUTOSTAZIONE--19/01/2012 11:01--300--40--servizio non presente--servizio non presente--servizio non presente--Non disponibili--n.d.--n.d.--AUT--n.d.--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.346923,44.504081</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PIAZZA VIII AGOSTO--198</name>
+            <description>PIAZZA VIII AGOSTO--19/01/2012 11:02--625--198--servizio non presente--servizio non presente--servizio non presente--Euro 1,50   1 e 2 ora
+Euro 1,20   3 e 4 ora
+Euro 0,90   5 e 6 ora
+Euro 0,60 ore successive--Sempre aperto
+Tutti i giorni--051/4222114--AGO--Tariffa piena euro120,00/mese
+Tariffa residenti euro 102,00/mese
+Tariffa pendolari(lun-ven) euro 95,00/mese
+Tariffa commercianti(lun-sab) euro 100,00/mese
+Notturno residenti ¿ 32,00/mese--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.345662,44.499958</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>STAVECO--231</name>
+            <description>STAVECO--19/01/2012 09:31--300--231--servizio non presente--servizio non presente--servizio non presente--Euro 1,50 /h
+Euro 10,00 /gg
+Euro 100,00/mese--Dalle 07.00 alle 01.00
+sempre aperto--051/290290 - 051/350111--STA--n.d.--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.344408,44.485722</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>TANARI--88</name>
+            <description>TANARI--19/01/2012 11:00--400--88--servizio non presente--servizio non presente--servizio non presente--Euro 0,60 /h
+Euro 3,00 /g
+Euro 30,00 /m--Dalle 0.00 alle 24.00
+tutti i giorni--051/290290 - 051/350111--TAN--Gratis abbonati ATC
+Gratis per chi lascia in deposito la bici e la usa dopo aver parcheggiato la propria auto--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.329426,44.506008</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>ZACCHERINI ALVISI--n.d.</name>
+            <description>ZACCHERINI ALVISI--n.d.--459--n.d.--servizio non presente--servizio non presente--servizio non presente--Non disponibili. Nolo gratuito della bicicletta a chi utilizza il parcheggio a pagamento--Sempre aperto tutti i giorni--n.d.--ZAC--n.d.--Parcheggio monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.360515,44.493332</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BATTINDARNO--n.d.</name>
+            <description>BATTINDARNO--n.d.--163--n.d.--servizio non presente--servizio non presente--servizio non presente--Gratuito--Sempre aperto--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.295832,44.500798</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>CENTRO BORGO--n.d.</name>
+            <description>CENTRO BORGO--n.d.--300--n.d.--servizio non presente--servizio non presente--servizio non presente--Non Disponibili--n.d.--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.263593,44.520985</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>CERTOSA--n.d.</name>
+            <description>CERTOSA--n.d.--325--n.d.--servizio non presente--servizio non presente--servizio non presente--gratuito--Sempre aperto--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.308622,44.498631</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DOZZA PARCO NORD--109</name>
+            <description>DOZZA PARCO NORD--18/05/2010 08:43--750--109--servizio non presente--servizio non presente--servizio non presente--Euro 8,00/gg nelle giornate di fiera
+fino alla 3 ora euro 0.52 /h
+dalla 3 ora fino alla chiusura euro 5.16
+Euro 77.47 /gg per autobus a noleggio con conducente--giovedi' dalle 10.00 alle 19.00 nei giorni di fiera--051/6391911--n.d.--parcheggio gratuito con abbonamenti ATC euro 15.49 /m--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.365875,44.526001</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>EX ZUCCA--0</name>
+            <description>EX ZUCCA--01/01/1970 00:00--40--0--servizio non presente--servizio non presente--servizio non presente--Non Disponibili--n.d.--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.350298,44.51249</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>FIORAVANTI--n.d.</name>
+            <description>FIORAVANTI--n.d.--190--n.d.--servizio non presente--servizio non presente--servizio non presente--Tariffa oraria euro 1,00
+Tariffa giornaliera euro 5,00
+Tariffa mensile euro 35,00
+Tariffa semestrale euro 150,00--Giorni feriali 6.30-22--051/290290 - 051/350111--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.340206,44.510715</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>GHISELLO--n.d.</name>
+            <description>GHISELLO--n.d.--115--n.d.--servizio non presente--servizio non presente--servizio non presente--Gratuito. Disponiblit¿ servizio centro in bici--Orario invernale (1/9 - 31/5) :
+Dal Lunedi al Sabato  07.30 Alle 22.00
+La Domenica 07.30 Alle 17.00
+Orario estivo (1/6 - 31/8) :
+Dal Lunedi al Sabato  07.30 Alle 02.00
+La Domenica 07.30 Alle 18.00--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.301608,44.492645</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LARGO LERCARO--n.d.</name>
+            <description>LARGO LERCARO--n.d.--240--n.d.--servizio non presente--servizio non presente--servizio non presente--Gratuito--Sempre aperto--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.371005,44.479397</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MANIFATTURA TABACCHI--173</name>
+            <description>MANIFATTURA TABACCHI--18/05/2010 08:49--253--173--servizio non presente--servizio non presente--servizio non presente--Non disponibili--aperto solo nei giorni di fiera--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.36015,44.522633</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MARCO POLO--n.d.</name>
+            <description>MARCO POLO--n.d.--184--n.d.--servizio non presente--servizio non presente--servizio non presente--Non Disponibili--n.d.--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.328867,44.510635</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MICHELINO--200</name>
+            <description>MICHELINO--18/05/2010 07:54--3270--200--servizio non presente--servizio non presente--servizio non presente--Non disponibili--Un'ora prima dell'apertura fiera e un'ora dopo la chiusura fiera
+solo nei giorni di fiera e manifestazioni Parco Nord--051/6391911--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.368846,44.514423</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PIAZZA DELLA COSTITUZIONE--460</name>
+            <description>PIAZZA DELLA COSTITUZIONE--18/05/2010 08:29--369--460--servizio non presente--servizio non presente--servizio non presente--Non disponibili--Aperto solo nei giorni di fiera--tel.051/360796--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.36,44.5121</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PIAZZA DELLA PACE--n.d.</name>
+            <description>PIAZZA DELLA PACE--n.d.--291--n.d.--servizio non presente--servizio non presente--servizio non presente--Fino alla 3 ora euro 0,52/h
+dalla 4 ora alla 10 euro 3,10
+dalla 11 ora in poi euro 0,52/h--Sempre aperto
+tutti i giorni--051/6143975--n.d.--Euro 12,91/ motocicli fini a 50 cc
+Euro 25,82/ moto
+Euro 56,81/ auto cilindrata inf. 1300 cc
+Euro 69,72/ auto cilindrata sup. 1300 cc
+¿ 82,63/ furgoni
+
+¿ 5,16/bici
+
+non valgono abbonamenti ATC--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.311468,44.493011</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PIAZZALE BALDI--n.d.</name>
+            <description>PIAZZALE BALDI--n.d.--74--n.d.--servizio non presente--servizio non presente--servizio non presente--Non Disponibili--0-24 escluso venerdi e sabato ( 5.30-20.30 per mercato e altri giorni di mercato)--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.346433,44.500782</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>PRATI DI CAPRARA--n.d.</name>
+            <description>PRATI DI CAPRARA--n.d.--180--n.d.--servizio non presente--servizio non presente--servizio non presente--Euro 0,60 /h
+Euro 3,00 /g
+Euro 30,00 /mese--sempre aperto (a pagamento dalle 7 alle 22)
+tutti i giorni--051/290290 - 051/350111--n.d.--Gratis abbonati ATC--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.309996,44.505623</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SEDE UNICA--n.d.</name>
+            <description>SEDE UNICA--n.d.--920--n.d.--servizio non presente--servizio non presente--servizio non presente--Euro 0,60 /h
+Euro 3,00 /g
+Euro 30,00 /m--dalle 07.00 alle 22.00
+chiuso i giorni festivi--051/350545--n.d.--Gratis abbonati ATC--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.339304,44.50869811</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S.ORSOLA--n.d.</name>
+            <description>S.ORSOLA--n.d.--450--n.d.--servizio non presente--servizio non presente--servizio non presente--Prima ora euro 1.65
+Seconda e terza ora euro 1.40
+Ore successive euro 1.10--24 ore su 24, 
+Dalle 02 alle 06 
+accesso consentito ai soli abbonati--051/300147--n.d.--Ordinario mensile euro 137.85
+Residenti mensile euro 82.70
+Notturno mensile (dalle 18 alle 09) euro 55.15--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.364331,44.491302</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>STADIO FALCHI--n.d.</name>
+            <description>STADIO FALCHI--n.d.--120--n.d.--servizio non presente--servizio non presente--servizio non presente--Non Disponibili--n.d.--n.d.--n.d.--n.d.--Parcheggio non monitorato</description>
+            <styleUrl>#Parcheggi</styleUrl>
+            <Point>
+                <coordinates>11.38133,44.463658</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

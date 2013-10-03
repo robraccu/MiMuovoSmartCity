@@ -6,8 +6,8 @@
 
 .inlineDiv {
     display: inline-block;
-    height: 25px;
-    margin-right: 20px;
+    height: 24px;
+    margin: 0 10px;
 }
 
 #mapcanvas{
@@ -23,6 +23,13 @@
 #dialog  {
 	background-color:#ffffff!important;
 	border: 1px solid #cccccc;
+    height: 94.5% !important;
+    min-height: 110px !important;
+    overflow-y: scroll;
+    width: auto !important;
+}
+#dialog dl dd img {
+    height: 21px;
 }
 #dialog dl {
     margin-left: .5em;
@@ -174,14 +181,14 @@ label#travelModeDivBtn{
 .ui-dialog { 
 	width: auto !important; 
 }
-
-#cercavia{
-	vertical-align: middle;
+#cercavia {
+    vertical-align: middle;
+    width: 270px;
 }
-#cercavia_btn{
-	height: 25px;
+#cercavia_btn {
+    height: 25px;
     margin: 0 0 0 -6px;
-    padding: 3px;
+    padding: 2px;
     vertical-align: middle;
 }
 #opener{
@@ -189,7 +196,11 @@ label#travelModeDivBtn{
     padding: 3px 5px 8px;
     vertical-align: middle;
 }
-
+input[type="text"]{
+    padding: 4px 2px !important;
+}
 input[type="submit"], input[type="button"], input[type="reset"], button {
     color: #174071 !important;
 }
+
+

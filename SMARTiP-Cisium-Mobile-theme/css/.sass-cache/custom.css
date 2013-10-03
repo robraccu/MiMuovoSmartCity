@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+.essential {
+  font-size: 100%; }
+
+/* ---------- Links ---------- */
+.essential a {
+  color: #D96C00; }
+
+.essential a:hover {
+  color: #ff9933; }
+
+.essential a:visited {
+  color: #FFB062; }
+
+/* ***********DOCKBAR*********** */
+.essential .dockbar {
+  background-color: #AFA798;
+  /*background-image: url(../images/color_schemes/essential/dockbar/dockbar_bg.png);*/ }
+
+.essential .dockbar .menu-button-active {
+  background-color: #DBAC5C;
+  /*background-image: url(../images/color_schemes/essential/dockbar/button_active_bg.png);*/ }
+
+/* ***********NAVIGATION*********** */
+.essential #navigation {
+  background: #FF9933;
+  background-image: -moz-linear-gradient(top, #ff9933, #d96c00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff9933), color-stop(1, #d96c00)); }
+
+.essential #navigation #menuWithChild {
+  background: transparent url("../images/arrows/05_down.png") no-repeat 100% 65%; }
+
+.essential #navigation li.hover a,
+.essential #navigation .child-menu li a,
+.essential #navigation .yui3-dd-dragging,
+.essential .lfr-navigation-proxy {
+  background: #ff9933;
+  color: #FFF;
+  outline: 0;
+  text-shadow: -1px -1px black; }
+
+.essential #navigation a:active,
+.essential #navigation a:focus,
+.essential #navigation a:hover {
+  background: #FFB062;
+  background-image: -moz-linear-gradient(top, #ffb062, #ff9933);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffb062), color-stop(1, #ff9933)); }
+
+.essential #navigation .selected a {
+  background: #D96C00;
+  background-image: -moz-linear-gradient(top, #d96c00, #b75b00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #405b7b), color-stop(1, #b75b00)); }
+
+.essential #navigation .child-menu li a {
+  background-color: #FF8000;
+  cursor: pointer !important; }
+
+.essential #navigation .child-menu li a:hover, #navigation li a.active {
+  background-color: #ff9933; }
+
+.essential #navigation .child-menu .selected a {
+  background: #ff9933 url("../images/color_schemes/essential/navigation/bullet_selected.png") no-repeat 6px 50%;
+  padding-left: 15px; }
+
+.essential #navigation .child-menu .child-menu-2 li a {
+  background: #FFB062;
+  cursor: pointer !important; }
+
+.essential #navigation .child-menu .child-menu-2 li a:hover, #navigation .child-menu-2 li a.active {
+  background-color: #ff9933; }
+
+.essential #navigation .child-menu .child-menu-2 .selected a {
+  background: #ff9933 url("../images/color_schemes/essential/navigation/bullet_selected.png") no-repeat 6px 50%;
+  padding-left: 15px; }
+
+.essential .nav-menu li a.selected {
+  color: #D96C00; }
+
+/* ***********BREADCRUMBS*********** */
+.essential .site-breadcrumbs li.first a {
+  color: #D96C00; }
+
+.essential .site-breadcrumbs li.last a {
+  color: #D96C00; }
+
+/* ***********PORTLET*********** */
+.essential .portlet {
+  border-color: #FFB062;
+  /*FFD3A8*/ }
+
+.essential .portlet-title {
+  border-bottom-color: #FFB062;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 2px; }
+
+.essential .portlet-title-text {
+  color: #B75B00;
+  cursor: pointer; }
+
+/* ********************************* */
+img.icon {
+  width: 40px; }
+
+#skip-to-content,
+#heading .community-title,
+#heading .page-title,
+#navigation h1, .site-breadcrumbs h1 {
+  clip: rect(0 0 0 0);
+  position: absolute; }
+
+body {
+  background: #f7f7f7 url(../images/custom/body_bg.png) repeat-x; }
+

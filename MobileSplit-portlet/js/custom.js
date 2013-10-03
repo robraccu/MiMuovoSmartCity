@@ -12,7 +12,7 @@ return paramList;
 }
 function getParameter(paramSubStr){
 
-//Array Associativo che conterrà i parametri presenti
+//Array Associativo che conterrï¿½ i parametri presenti
 //in querystring
 var allParams = new Array();
  
@@ -43,7 +43,7 @@ return allParams;
 }
 
 /*//////////////////////CODICE RELATIVO AGLI ELEMENTI DELLA PAGINA MAPPA_PAGE///////////////////*/
-function ShowMap(center,show_eventsIcon,show_parkingIcon,zoom){
+function ShowMap(center,zoom){
 	
 	
 	map.setCenter(center);
@@ -79,6 +79,10 @@ function ShowMap(center,show_eventsIcon,show_parkingIcon,zoom){
 	if(show_fermatebusIcon==true){	
 		$('#fermatebus_check ').attr( "selected",true );
 		GetFermateBusForMap();	
+	}
+	if(show_taxiIcon==true){	
+		$('#taxi_check ').attr( "selected",true );
+		GetTaxiForMap();	
 	}
 	//aggiorno le modifiche sul menu
 	$("#select_layer").selectmenu("refresh",true);
@@ -126,35 +130,45 @@ $("#mappa_page").live('pageinit',function(event){
 		  show_fermatebusIcon = url_params['show_fermatebusIcon']; 
 		  show_ciclopedpubIcon = url_params['show_ciclopedpubIcon']; 
 		  show_accessibilityIcon = url_params['show_accessibilityIcon'];
+		  show_taxiIcon = url_params['show_taxiIcon'];
 		  if(show_parkingIcon=="true")
 			  show_parkingIcon=true;
 		  else
 			  show_parkingIcon=false;
+		  
 		  if(show_eventsIcon=="true")
 			  show_eventsIcon=true;
 		  else
 			  show_eventsIcon=false;
-		  if(show_fermatebusIcon=="true"){//controllo se è stato premuto nella home il pulsante "Bus"
+		  
+		  if(show_fermatebusIcon=="true"){//controllo se ï¿½ stato premuto nella home il pulsante "Bus"
 			  show_fermatebusIcon=true;
-		  	  show_trafficIcon=false;
-		  	  
+		  	  show_trafficIcon=false;		  	  
 		  }
 		  else
 			  show_fermatebusIcon=false;
-		  if(show_ciclopedpubIcon=="true"){//controllo se è stato premuto nella home il pulsante "Piste ciclabili"
+		  
+		  if(show_ciclopedpubIcon=="true"){//controllo se ï¿½ stato premuto nella home il pulsante "Piste ciclabili"
 			  show_ciclopedpubIcon=true;
-		  	  show_trafficIcon=false;
-		  	  
+		  	  show_trafficIcon=false;		  	  
 		  }
 		  else
 			  show_ciclopedpubIcon=false;
-		  if(show_accessibilityIcon=="true"){//controllo se è stato premuto nella home il pulsante "Luoghi accessibili"
+		  
+		  if(show_accessibilityIcon=="true"){//controllo se ï¿½ stato premuto nella home il pulsante "Luoghi accessibili"
 			  show_accessibilityIcon=true;
-		  	  show_trafficIcon=false;
-		  	  
+		  	  show_trafficIcon=false;		  	  
 		  }
 		  else
 			  show_accessibilityIcon=false;
+		  
+		  if(show_taxiIcon=="true"){//controllo se ï¿½ stato premuto nella home il pulsante "Postazioni Taxi"
+			  show_taxiIcon=true;
+		  	  show_trafficIcon=false;		  	  
+		  }
+		  else{
+			  show_taxiIcon=false;
+		  }
 		  zoom_map=parseInt(url_params['zoom_map']); 
 		 
 		  center_map=new google.maps.LatLng(url_params['lat_center'],url_params['lng_center']);
@@ -171,7 +185,9 @@ $("#mappa_page").live('pageinit',function(event){
 			 show_ciclopedpubIcon=false;
 		 if(show_accessibilityIcon==undefined)
 			 show_accessibilityIcon=false;
-		ShowMap(center_map,show_eventsIcon,show_parkingIcon,zoom_map);
+		 if(show_taxiIcon==undefined)
+			 show_taxiIcon=false;
+		ShowMap(center_map,zoom_map);
 		
 	//definisco degli stili per il menu dei layer
 	$("#select_layer").selectmenu({
@@ -205,10 +221,15 @@ $('.ui-dialog a.ui-btn-left').buttonMarkup({ iconpos: "right",icon: "check"});//
 //quando viene mostrata la pagina della mappa viene fatto un controllo 
 //su eventuali percorsi da visualizzare
 $("#mappa_page").live('pageshow',function(event){
+	
+	
+	google.maps.event.trigger(map, 'resize');
+	
+	
 	if(directionsResult!=""){
 		
 		DrawRoute(directionsResult,routeIndex);
-	}else if(routeArray.length>0){//se è presente un precedente percorso disegnato sulla mappa viene cancellato
+	}else if(routeArray.length>0){//se ï¿½ presente un precedente percorso disegnato sulla mappa viene cancellato
 		
 		for(var i=0;i<routeArray.length;i++)
 		routeArray[i].setMap(null);
@@ -217,37 +238,49 @@ $("#mappa_page").live('pageshow',function(event){
 		for(var i=0;i<markerArray.length;i++)
 		markerArray[i].setMap(null);
 		
+		if(markerPoint){
+			//devo ricentrare la mappa altrimenti mi fa vedere il marker in alto a sinistra
+			map.setCenter(markerPoint.getPosition());
+		}
+	}else if(markerPoint){
+		//devo ricentrare la mappa altrimenti mi fa vedere il marker in alto a sinistra
+		map.setCenter(markerPoint.getPosition());
 	}
 });
 //funzione richiamata quando cambia lo stato della checkbox del traffico
 $("#select_layer-menu>li[data-option-index='1']").live("click",function(){
 		GetFermateBusForMap();
 });
-//funzione richiamata quando cambia lo stato della checkbox dei parcheggi
+//funzione richiamata quando cambia lo stato della checkbox dei luoghi accessibili
 $("#select_layer-menu>li[data-option-index='2']").live("click",function(){
 	GetAccessibilityForMap();
 });
 
-//funzione richiamata quando cambia lo stato della checkbox degli eventi
+//funzione richiamata quando cambia lo stato della checkbox dei parcheggi
 $("#select_layer-menu>li[data-option-index='3']").live("click",function(){
 	GetParcheggiForMap();
 });
-//funzione richiamata quando cambia lo stato della checkbox delle telecamere
+//funzione richiamata quando cambia lo stato della checkbox delle piste ciclabili
 $("#select_layer-menu>li[data-option-index='4']").live("click",function(){
 	GetCiclopedpubForMap();
 });
-//funzione richiamata quando cambia lo stato della checkbox delle piste ciclabili
+//funzione richiamata quando cambia lo stato della checkbox delle postazioni taxi
 $("#select_layer-menu>li[data-option-index='5']").live("click",function(){
+	GetTaxiForMap();
+});
+//funzione richiamata quando cambia lo stato della checkbox dei problemi alla circolazione
+$("#select_layer-menu>li[data-option-index='6']").live("click",function(){
 	GetEventiForMap();
 });
-//funzione richiamata quando cambia lo stato della checkbox dei luoghi accessibili
-$("#select_layer-menu>li[data-option-index='6']").live("click",function(){
+//funzione richiamata quando cambia lo stato della checkbox dei telecamere
+$("#select_layer-menu>li[data-option-index='7']").live("click",function(){
 	GetTelecamereForMap();
 });
-//funzione richiamata quando cambia lo stato della checkbox dei luoghi accessibili
-$("#select_layer-menu>li[data-option-index='7']").live("click",function(){
+//funzione richiamata quando cambia lo stato della checkbox del traffico
+$("#select_layer-menu>li[data-option-index='8']").live("click",function(){
 	GetTrafficForMap();
 });
+
 //funzione richiamata quando cambia lo stato della checkbox relativo alla rilevazione GPS
 $("#position_check").live("click", function() {
 	
@@ -310,7 +343,7 @@ function errorPosition(error,msg) {//mostra eventuali messaggi d'errore se la ge
 	}
 		 
 }
-//funzione richiamata sull'evonchange del menù di selezione dei layers
+//funzione richiamata sull'evonchange del menï¿½ di selezione dei layers
 function getFirstOptionValue(){
 	
 	var myselect = document.getElementById("select_layer");
@@ -341,13 +374,14 @@ function DrawRoute(routeObject,index){
 	//cancello eventuale marker relativo ad un punto precedentemente cercato sulla mappa
 	if(markerPoint)
 	markerPoint.setMap(null);
+	/*
 	//mostro il layer del traffico
-	if($("#select_layer")[0].options[7].selected==false)
+	if($("#select_layer")[0].options[8].selected==false)
 		  
-		   $("#select_layer-menu>li[data-option-index='7']").click();
+		   $("#select_layer-menu>li[data-option-index='8']").click();
 	   	
 	 $("#select_layer").selectmenu("refresh");
-	 $("#select_layer-button .ui-btn-text").text(layermenuLbl);
+	 $("#select_layer-button .ui-btn-text").text(layermenuLbl);*/
 	//centro la mappa sul punto di partenza
 	map.setCenter(routeObject.routes[index].legs[0].start_location);
 	var steps = routeObject.routes[index].legs[0].steps;
@@ -460,6 +494,7 @@ $("#cercapercorsi_tab").live("click", function(){
 	
 	if(cercapercorsi_tab_active==false){
 		$("#cercapuntoDiv").hide();
+		ResetPoint();
 		$("#cercapercorsiDiv").show();
 		$("#cercapunto_tab").removeClass("ui-btn-active ui-state-persist");
 		cercapunto_tab_active=false;
@@ -491,7 +526,7 @@ $('#indicazioni_page').live('pageinit', function (event) {
 	autocomplete_partenza = new google.maps.places.Autocomplete(partenza, options);
 	autocomplete_arrivo = new google.maps.places.Autocomplete(arrivo, options);
 	
-//al caricamento della pagina di default deve essere selezionata la modalità driving
+//al caricamento della pagina di default deve essere selezionata la modalitï¿½ driving
 	$('input:radio[name=travelModeradio]')[0].checked = true;
 	$('input:radio[name=travelModeradio]')[1].checked = false;
 	$('input:radio[name=travelModeradio]').checkboxradio("refresh");
@@ -501,28 +536,41 @@ $('#indicazioni_page').live('pageinit', function (event) {
 });
 //funzione richiamata quando si vuole cercare un punto sulla mappa
 function ShowPoint(){
+	
 		directionsResult="";
+		//annullo la var place nel caso fosse rimasta valorizzata con  un punto precedentemente cercato sulla mappa
+		if(place)
+			 place=null;
 		//cancello eventuale marker relativo ad un punto precedentemente cercato sulla mappa
 		if(markerPoint)
-		markerPoint.setMap(null);
-		$.mobile.changePage("#mappa_page");
+			markerPoint.setMap(null);
+
 		
 		//ottengo il punto da cercare
+		autocomplete_punto.setValues("");
 		 var place = autocomplete_punto.getPlace();
 		 if(place){
+			 $.mobile.changePage("#mappa_page");	
 			
-		  map.setCenter(place.geometry.location);
+	       map.setCenter(place.geometry.location);
 
 		   map.setZoom(17);
-		   markerPoint=new google.maps.Marker({
-				map: map});
-		  infoPoint = new InfoBubble();
-		  	  var image = new google.maps.MarkerImage(
-		      place.icon, new google.maps.Size(71, 71),
-		      new google.maps.Point(0, 0), new google.maps.Point(17, 34),
-		      new google.maps.Size(35, 35));
+		   console.log(place.icon);
+		   markerPoint=new google.maps.Marker({map: map});
+		   
+
+		   infoPoint = new InfoBubble();
+
+		  	var image ={
+		  				url:place.icon,
+		  				 origin: new google.maps.Point(0, 0),
+		  				 anchor: new google.maps.Point(17, 34),
+		  				size: new google.maps.Size(35,35),
+		  				scaledSize: new google.maps.Size(35, 35)
+		  				};
 		  	markerPoint.setIcon(image);
 		  	markerPoint.setPosition(place.geometry.location);
+		
 		  	google.maps.event.addListener(markerPoint, 'click', function(event){
 		  	   if (!infoPoint.isOpen()) { 
 		  		  infoPoint.setOptions({	
@@ -550,15 +598,19 @@ function ShowPoint(){
 		 			    } 
 		  	   
 		     });
+		  	
+		}else{
+			alert(errPunto);
 		}
-		
+		/*
 		   //mostro il layer del traffico
 	if($("#select_layer")[0].options[7].selected==false)
 		  
 		   $("#select_layer-menu>li[data-option-index='7']").click();
 	   	
 	 $("#select_layer").selectmenu("refresh");
-	 $("#select_layer-button .ui-btn-text").text(layermenuLbl);
+	 $("#select_layer-button .ui-btn-text").text(layermenuLbl);*/
+	
 }		 
 		
 	
@@ -695,6 +747,28 @@ function ResetRoute(){
 	
 	directionsResult="";
 	 resetDir=true;
+	 if(Startmarker)
 	 Startmarker.setMap(null);
+	 
+	 if(Endmarker)
 	 Endmarker.setMap(null);
 }
+function ResetPoint(){
+	$("#punto").val("");
+	var punto=document.getElementById('punto');
+	
+	sw= new google.maps.LatLng(44.424043,11.229445);
+	ne=new google.maps.LatLng(44.555486,11.438165);
+	bounds= new google.maps.LatLngBounds(sw, ne);
+	var options = {
+			 bounds: bounds,
+			types: ["geocode"]
+ 		
+	  	};
+	autocomplete_punto = new google.maps.places.Autocomplete(punto, options);
+
+	if(markerPoint)
+		markerPoint.setMap(null);
+	
+}
+

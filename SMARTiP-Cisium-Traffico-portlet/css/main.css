@@ -48,6 +48,8 @@
     line-height: 15px;
     margin: 20px auto 0;
     padding: 5px 9px 8px;
+    font-family: Helvetica Neue,Helvetica,arial;
+    font-size:12px;
 }
  
 .infoWindowText ul {
